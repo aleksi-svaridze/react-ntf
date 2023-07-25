@@ -1,30 +1,37 @@
 import Logo from '../../media/images/navbar/Logo.svg';
+import UserIcon from '../../media/images/navbar/User.svg';
+import Button from '../../components/buttons/Buttons';
+import burgerMenu from '../../media/images/navbar/BurgerMenu.svg';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg py-4">
-            <div className="container-fluid py-1">
+        <nav className="navbar navbar-expand-lg py-3">
+            <div className="container">
                 <a className="navbar-brand" href="/#">
                     <img src={Logo} alt="" />
                 </a>
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
+                    <img src={burgerMenu} className="navbar-toggler-icon" alt='' />
                 </button>
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto me-0 column-gap-3">
-                        <li className="nav-item px-3">
+                        <li className="nav-item d-flex align-items-center px-3">
                             <a className="nav-link text-white fw-semibold" href="/#">Marketplace</a>
                         </li>
-                        <li className="nav-item px-3">
+                        <li className="nav-item d-flex align-items-center px-3">
                             <a className="nav-link text-white fw-semibold" href="/#">Rankings</a>
                         </li>
-                        <li className="nav-item px-3">
+                        <li className="nav-item d-flex align-items-center px-3">
                             <a className="nav-link text-white fw-semibold" href="/#">Connect a wallet</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="btn" href="/#">Sign Up</a>
+                        <li className="nav-item d-flex align-items-center">
+                            <Button 
+                                btnStyle={'btn_custom btn_custom--purple'}
+                                text_color={'text-white'}
+                                icon={UserIcon}
+                                content={'Sign In'} />
                         </li>
                     </ul>
                 </div>

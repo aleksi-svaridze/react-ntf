@@ -1,0 +1,25 @@
+.btn_custom {
+    border-radius: 20px;
+    padding: 0px 30px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    text-decoration: none;
+
+    &--purple {
+        background: #A259FF;
+        color: #fff;
+    }
+}
+
+// ===============> Reset bootstrap button style <=================
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar-toggler {
+    border: none;
+}
