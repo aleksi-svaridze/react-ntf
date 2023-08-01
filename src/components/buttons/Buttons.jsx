@@ -6,7 +6,7 @@ const Button = ({icon, content, btnStyle}) => {
         <a href="/#" className={`${btnStyle}`}>
             <img src={icon} width='20' height='20' alt="" />
             {content}
-        </a>
+        </a> 
     )
 }
 

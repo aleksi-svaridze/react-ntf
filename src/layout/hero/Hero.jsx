@@ -15,7 +15,7 @@ const Hero = () => {
                     <Button
                         icon={RocketIcon}
                         content='get started'
-                        btnStyle='btn_custom btn_custom--purple d-inline-block' 
+                        btnStyle='btn_custom btn_custom--purple'
                     />  
                     <div className="d-block d-lg-none">
                         <HeroCard />
