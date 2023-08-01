@@ -7,7 +7,7 @@ import RocketIcon from '../../media/images/hero/RocketLaunch.svg';
 const Hero = () => {
 
     return (
-        <div className="container bg-danger py-5">
+        <div className="container bg-primary py-5">
             <div className="row py-4">
                 <div className="col-12 col-lg-6 py-2">
                     <h1 className='fw-semibold'>Discover digital art & Collect NFTs</h1>
