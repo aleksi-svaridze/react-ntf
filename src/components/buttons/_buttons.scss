@@ -1,6 +1,5 @@
 .btn_custom {
     border-radius: 20px;
-    padding: 0 30px;
     height: 60px;
 
     display: inline-flex;
@@ -17,6 +16,13 @@
         background: #A259FF;
         color: #fff; 
     } 
+}
+.navbar-btn {
+    padding: 0 30px;
+}
+.hero-btn {
+    margin: 30px 0;
+    padding: 0 50px;
 }
 
 // ===============> Reset bootstrap button style <=================

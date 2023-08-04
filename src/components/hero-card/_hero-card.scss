@@ -1,0 +1,8 @@
+.hero-card {
+    border-radius: 20px;
+    overflow: hidden;
+
+    & div {
+        padding: 20px;
+    }
+}

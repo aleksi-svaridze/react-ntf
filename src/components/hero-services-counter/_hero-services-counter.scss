@@ -1,0 +1,18 @@
+.counter {
+
+    &__number {
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; /* 39.2px */
+        text-transform: capitalize;
+    }
+
+    &__desc {
+        font-size: 23.99px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 38.384px */
+        text-transform: capitalize;
+    }
+}

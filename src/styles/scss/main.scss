@@ -3,6 +3,11 @@
 @import './partials/text';
 @import './partials/colors';
 @import './partials/border';
+@import './partials/spacing';
 
 @import '../../components/buttons/buttons';
+@import '../../components/hero-card/hero-card';
 @import '../../components/users/user'; 
+@import '../../components/hero-services-counter/hero-services-counter';
+
+@import '../../layout/hero/heroStyles';
