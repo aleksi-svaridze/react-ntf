@@ -15,6 +15,11 @@
         background: #A259FF;
         color: #fff; 
     } 
+
+    &--black {
+        background-color: #2b2b2b;
+        border: 2px solid #A259FF;
+    }
 }
 .navbar-btn {
     padding: 0 30px;
@@ -27,6 +32,9 @@
         margin: 30px 0;
         padding: 0 50px;
     }
+}
+.heading-btn {
+    padding: 0 50px;
 }
 
 // ===============> Reset bootstrap button style <=================
