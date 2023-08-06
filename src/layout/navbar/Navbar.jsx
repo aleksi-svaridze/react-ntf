@@ -28,7 +28,7 @@ const Navbar = () => {
                         </li>
                         <li className="nav-item d-flex align-items-center">
                             <Button 
-                                btnStyle={'btn_custom btn_custom--purple navbar-btn'}
+                                btnStyle={'btn_custom btn_custom--purple navbar-btn d-inline-flex'}
                                 text_color={'text-white'}
                                 icon={UserIcon}
                                 content={'Sign In'} />
