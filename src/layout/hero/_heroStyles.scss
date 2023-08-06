@@ -2,7 +2,7 @@
     font-size: 28px;
     font-style: normal;
     line-height: 110%; /* 73.7px */
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
     @media screen and (min-width: 768px) {
         font-size: 42px;
@@ -11,6 +11,7 @@
     @media screen and (min-width: 992px) {
         width: 60%;
         font-size: 42px;
+        margin-bottom: 20px;
     }
 
     @media screen and (min-width: 1200px) {
@@ -26,6 +27,7 @@
     font-size: 16px;
     font-style: normal;
     line-height: 160%; /* 35.2px */
+    margin-bottom: 40px;
 
     @media screen and (min-width: 768px) {
         font-size: 18px;
@@ -33,5 +35,6 @@
 
     @media screen and (min-width: 992px) {
         font-size: 22px;
+        margin-bottom: 0;
     }
 }
