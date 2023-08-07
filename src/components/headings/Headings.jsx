@@ -1,7 +1,6 @@
 import Buttons from '../../components/buttons/Buttons'
-import BtnIcon from '../../media/images/collection/RocketLaunch.svg'
 
-export const PrimaryHeading = ({heading, desc, btnText}) => {
+export const PrimaryHeading = ({heading, desc, btnText, btnIcon}) => {
     return(
         <div className='d-flex justify-content-between'>
             <div>
@@ -10,7 +9,7 @@ export const PrimaryHeading = ({heading, desc, btnText}) => {
             </div>
             { btnText ? 
                         <Buttons 
-                            icon={BtnIcon} 
+                            icon={btnIcon} 
                             content={btnText} 
                             btnStyle='text-white align-self-end btn_custom btn_custom--black heading-btn d-inline-flex' 
                         /> 
