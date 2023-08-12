@@ -8,12 +8,12 @@ export const PrimaryHeading = ({heading, desc, btnText, btnIcon}) => {
                 { desc ? <p className='primary-desc text-white text-capitalize fw-normal'>{desc}</p> : null }
             </div>
             { btnText ? 
-                        <Buttons 
-                            icon={btnIcon} 
-                            content={btnText} 
-                            btnStyle='text-white align-self-end btn_custom btn_custom--black heading-btn d-none d-lg-inline-flex' 
-                        /> 
-                        : null
+                    <Buttons 
+                        icon={btnIcon} 
+                        content={btnText} 
+                        btnStyle='text-white align-self-end btn_custom btn_custom--black heading-btn d-none d-lg-inline-flex' 
+                    /> 
+                    : null
             }
         </div>
     )

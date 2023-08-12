@@ -42,7 +42,7 @@ const Creators = () => {
                 btnText='View Rankings'
                 btnIcon={BtnIconRocket} />
 
-                <div className="row mt-3 py-5 gy-4 d-none d-sm-flex">
+                <div className="row py-5 gy-4 d-none d-sm-flex">
                     {creators.map(creator => (
                          <CreatorsCardDesktop 
                             id={creator.id} 
@@ -52,7 +52,7 @@ const Creators = () => {
                         />
                     ))}
                 </div>
-                <div className="row mt-3 py-5 gy-4 d-flex d-sm-none">
+                <div className="row py-5 gy-4 d-flex d-sm-none">
                     {creators.map(creator => (
                          <CreatorsCardMobile 
                             id={creator.id} 
