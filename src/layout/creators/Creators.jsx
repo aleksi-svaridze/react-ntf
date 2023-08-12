@@ -53,7 +53,7 @@ const Creators = () => {
                     ))}
                 </div>
                 <div className="row py-5 gy-4 d-flex d-sm-none">
-                    {creators.map(creator => (
+                    {creators.slice(0, 6).map(creator => (
                          <CreatorsCardMobile 
                             id={creator.id} 
                             name={creator.name} 
