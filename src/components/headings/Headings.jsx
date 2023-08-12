@@ -11,7 +11,7 @@ export const PrimaryHeading = ({heading, desc, btnText, btnIcon}) => {
                         <Buttons 
                             icon={btnIcon} 
                             content={btnText} 
-                            btnStyle='text-white align-self-end btn_custom btn_custom--black heading-btn d-inline-flex' 
+                            btnStyle='text-white align-self-end btn_custom btn_custom--black heading-btn d-none d-lg-inline-flex' 
                         /> 
                         : null
             }

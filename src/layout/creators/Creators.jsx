@@ -1,6 +1,7 @@
-import CreatorsCard from "../../components/creators-card/CreatorsCard";
+import { CreatorsCardDesktop, CreatorsCardMobile } from "../../components/creators-card/CreatorsCard";
 import { PrimaryHeading } from "../../components/headings/Headings";
 import BtnIconRocket from '../../media/images/collection/RocketLaunch.svg'
+import Buttons from "../../components/buttons/Buttons";
 
 // Creators array data
 import Creator1 from '../../media/images/creators/creator1.svg'
@@ -41,9 +42,9 @@ const Creators = () => {
                 btnText='View Rankings'
                 btnIcon={BtnIconRocket} />
 
-                <div className="row mt-3 py-5 gy-4">
+                <div className="row mt-3 py-5 gy-4 d-none d-sm-flex">
                     {creators.map(creator => (
-                         <CreatorsCard 
+                         <CreatorsCardDesktop 
                             id={creator.id} 
                             name={creator.name} 
                             image={creator.image} 
@@ -51,6 +52,21 @@ const Creators = () => {
                         />
                     ))}
                 </div>
+                <div className="row mt-3 py-5 gy-4 d-flex d-sm-none">
+                    {creators.map(creator => (
+                         <CreatorsCardMobile 
+                            id={creator.id} 
+                            name={creator.name} 
+                            image={creator.image} 
+                            sales={creator.sales} 
+                        />
+                    ))}
+                </div>
+                <Buttons 
+                    icon={BtnIconRocket} 
+                    content='View Rankings'
+                    btnStyle='text-white btn_custom btn_custom--black heading-btn d-flex d-lg-none' 
+                />
         </div>
     )
 }

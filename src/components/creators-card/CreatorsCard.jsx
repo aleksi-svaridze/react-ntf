@@ -1,4 +1,4 @@
-const CreatorsCard = ({id, name, image, sales}) => {
+export const CreatorsCardDesktop = ({id, name, image, sales}) => {
     return (
         <div className="col-sm-6 col-md-4 col-xl-3" key={id} style={{order: id}}>
             <div className="rounded-20 bg-black-secondary creators-card custom-p-20 position-relative">
@@ -13,4 +13,10 @@ const CreatorsCard = ({id, name, image, sales}) => {
     )
 }
 
-export default CreatorsCard;
+export const CreatorsCardMobile = ({id, name, image, sales}) => {
+    return (
+        <div className="col-12" key={id} style={{order: id}}>
+            Hello Lorem ....
+        </div>
+    )
+}
