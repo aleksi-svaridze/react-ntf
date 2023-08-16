@@ -1,0 +1,17 @@
+@import './partials/fonts';
+@import './partials/variables';
+@import './partials/text';
+@import './partials/colors';
+@import './partials/border';
+@import './partials/spacing';
+
+@import '../../components/buttons/buttons';
+@import '../../components/hero-card/hero-card';
+@import '../../components/users/user'; 
+@import '../../components/hero-services-counter/hero-services-counter';
+@import '../../components/headings/heading';
+@import '../../components/collection-counter/collection-counter';
+@import '../../components/creators-card/creators-card';
+
+@import '../../layout/hero/heroStyles';
+@import '../../layout/collection/collection';

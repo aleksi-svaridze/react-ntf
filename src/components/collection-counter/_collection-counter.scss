@@ -1,0 +1,10 @@
+.collection-counter {
+    border-radius: 34px;
+    font-size: 16px;
+    line-height: 160%; /* 35.2px */
+    flex: 1;
+
+    @media screen and (min-width: 576px) {
+        font-size: 22px;
+    }
+}
