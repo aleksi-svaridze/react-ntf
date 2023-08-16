@@ -14,6 +14,18 @@ const NftsCard = () => {
                         content='MoonDancer'
                         contentClass='font-spacemono'
                     />
+
+                    <div className='wrapper'>
+                        <div className=''>
+                            <span className='text-capitalize'>price</span>
+                            <span>1.63 ETH</span>
+                        </div>
+                        <div className=''>
+                            <span className='text-capitalize'>Highest Bid</span>
+                            <span>0.33 wETH</span>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
