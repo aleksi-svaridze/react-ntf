@@ -18,6 +18,7 @@ const CollectionCard = ({mainImage, shortcat1, shortcat2, num, userImage, conten
                 content={content}
                 marginBottom='10px'
                 categories={categories}
+                contentClass={'font-worksans'}
             />
         </div>
     )

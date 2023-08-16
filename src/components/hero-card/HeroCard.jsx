@@ -9,12 +9,12 @@ const HeroCard = () => {
         <div className='hero-card'>
             <img src={heroImg} alt="" className='w-100' />
             <div className='bg-black-secondary custom-p-20'>
-                {/* <h5 className=' mb-2'>Space Walking</h5> */}
                 <User 
                     categories={'Space Walking'} 
                     marginBottom='10px'
                     imageSrc={UserImage} 
                     content='animakid' 
+                    contentClass={'font-worksans'}
                 />
             </div>
         </div>
