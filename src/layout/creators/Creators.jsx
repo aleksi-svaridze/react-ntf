@@ -35,7 +35,7 @@ const Creators = () => {
         {id: 12, name: 'Ghiblier', image: Creator12, sales: 34.53 },
     ]
     return (
-        <div className="container">
+        <div className="container pb-5 mb-4">
             <PrimaryHeading 
                 heading='Top creators' 
                 desc='Checkout Top Rated Creators on the NFT Marketplace'

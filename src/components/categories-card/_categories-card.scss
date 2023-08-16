@@ -1,0 +1,33 @@
+.cat-card {
+    border-radius: 20px;
+
+    &__image {
+        filter: blur(7.5px);
+    }
+
+    &__icon {
+        width: 80px;
+        height: 80px;
+
+        @media screen and (min-width: 768px) {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    &__text {
+        font-size: 14px;
+        line-height: 140%; /* 30.8px */
+        padding: 20px 15px 25px 15px;
+
+        @media screen and (min-width: 380px) {
+            font-size: 16px;
+            padding: 20px 20px 25px 20px;
+        }
+
+        @media screen and (min-width: 768px) {
+            font-size: 22px;
+            padding: 20px 0 25px 30px;
+        }
+    }
+}
