@@ -1,0 +1,17 @@
+.sale {
+    margin-top: 25px;
+
+    &__desc {
+        font-size: 12px;
+        line-height: 110%; /* 13.2px */
+    }
+
+    &__amount {
+        font-size: 12px;
+        line-height: 140%; /* 22.4px */
+
+        @media screen and (min-width: 567px) {
+            font-size: 16px;
+        }
+    }
+}
