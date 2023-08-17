@@ -1,29 +1,29 @@
 import CategoriesCard from "../../components/categories-card/CategoriesCard";
 import { PrimaryHeading } from "../../components/headings/Headings";
 
-import artImage from '../../media/images/categories/cat-art.svg';
+import artImage from '../../media/images/categories/cat-art.png';
 import brushIcon from '../../media/images/categories/brush_icon.svg';
 
 import swatchesIcon from '../../media/images/categories/swatches_icon.svg';
 import collectiblesImage from '../../media/images/categories/collectibles.png';
 
 import musicNotesIcon from '../../media/images/categories/MusicNotes.svg';
-import musicImage from '../../media/images/categories/music.svg';
+import musicImage from '../../media/images/categories/music.png';
 
 import cameraIcon from '../../media/images/categories/Camera.svg';
-import cameraImage from '../../media/images/categories/photography.svg';
+import cameraImage from '../../media/images/categories/photography.png';
 
 import videoIcon from '../../media/images/categories/VideoCamera.svg';
-import videoImage from '../../media/images/categories/videoImage.svg';
+import videoImage from '../../media/images/categories/videoImage.png';
 
 import utilityIcon from '../../media/images/categories/MagicWand.svg';
-import utilityImage from '../../media/images/categories/utilityImage.svg';
+import utilityImage from '../../media/images/categories/utilityImage.png';
 
 import ballIcon from '../../media/images/categories/Basketball.svg';
-import sportImage from '../../media/images/categories/sportImage.svg';
+import sportImage from '../../media/images/categories/sportImage.png';
 
 import planetIcon from '../../media/images/categories/Planet.svg';
-import worldsImage from '../../media/images/categories/worlds.svg';
+import worldsImage from '../../media/images/categories/worlds.png';
 
 
 const Categories = () => {
