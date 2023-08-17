@@ -2,20 +2,20 @@ import CollectionCard from '../../components/collection-card/CollectionCard';
 import {PrimaryHeading} from '../../components/headings/Headings'
 
 
-import mainImage1 from '../../media/images/collection/image-big-1.svg'
-import User1 from '../../media/images/collection/image-sm-1.svg'
-import User2 from '../../media/images/collection/image-sm-2.svg'
-import UserImage1 from '../../media/images/collection/user-1.svg'
+import mainImage1 from '../../media/images/collection/image-big-1.png'
+import User1 from '../../media/images/collection/image-sm-1.png'
+import User2 from '../../media/images/collection/image-sm-2.png'
+import UserImage1 from '../../media/images/collection/user_1.png'
 
-import mainImage2 from '../../media/images/collection/image-big-2.svg'
-import User3 from '../../media/images/collection/image-sm-3.svg'
-import User4 from '../../media/images/collection/image-sm-4.svg'
-import UserImage2 from '../../media/images/collection/user-2.svg'
+import mainImage2 from '../../media/images/collection/image-big-2.png'
+import User3 from '../../media/images/collection/image-sm-3.png'
+import User4 from '../../media/images/collection/image-sm-4.png'
+import UserImage2 from '../../media/images/collection/user_2.png'
 
-import mainImage3 from '../../media/images/collection/image-big-3.svg'
-import User5 from '../../media/images/collection/image-sm-5.svg'
-import User6 from '../../media/images/collection/image-sm-6.svg'
-import UserImage3 from '../../media/images/collection/user-3.svg'
+import mainImage3 from '../../media/images/collection/image-big-3.png'
+import User5 from '../../media/images/collection/image-sm-5.png'
+import User6 from '../../media/images/collection/image-sm-6.png'
+import UserImage3 from '../../media/images/collection/user_3.png'
 
 const Collection = () => {
     return (

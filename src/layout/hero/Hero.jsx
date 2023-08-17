@@ -54,7 +54,6 @@ const Hero = () => {
                     <div className="d-none d-lg-block">
                         <HeroCard />
                     </div>
-
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
-import User from '../../components/users/User'
-import heroImg from '../../media/images/hero/hero_img.svg'
+import User from '../../components/users/User';
+import heroImg from '../../media/images/hero/hero_img.png';
 
-import UserImage from '../../media/images/components/users/user_1.svg'
+import UserImage from '../../media/images/hero/user_1.png';
 
 
 const HeroCard = () => {
