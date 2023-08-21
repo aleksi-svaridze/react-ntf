@@ -1,12 +1,12 @@
-
+import { NavLink } from 'react-router-dom';
 
 
 const Button = ({icon, content, btnStyle}) => {
     return (
-        <a href="/#" className={`${btnStyle}`}>
+        <NavLink to="signup" className={`${btnStyle}`}>
             <img src={icon} width='20' height='20' alt="" />
             {content}
-        </a> 
+        </NavLink> 
     )
 }
 
