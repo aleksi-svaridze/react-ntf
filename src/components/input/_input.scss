@@ -1,0 +1,43 @@
+.input {
+    max-width: 330px;
+    height: 46px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    flex-shrink: 1;
+
+    &:not(:last-of-type) {
+        margin-bottom: 15px; 
+    }
+
+    &__type {
+        width: 100%;
+        height: 46px;
+        border-radius: 20px;
+        padding: 16px 20px 16px 52px;
+        border: none;
+
+        font-size: 16px;
+        line-height: 140%; 
+
+        &:focus {
+            outline: none;
+            border: none;
+        }
+    }
+
+    &__icon {
+        width: 20px;
+        height: 20px;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+::placeholder {
+    text-transform: capitalize;
+    color: #2B2B2B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%; 
+}

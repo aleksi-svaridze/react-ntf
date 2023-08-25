@@ -36,7 +36,14 @@
 .heading-btn {
     padding: 0 50px;
 }
+.form-button {
+    max-width: 330px;
+    height: 46px;
+    border-radius: 20px;
 
+    font-size: 16px;
+    line-height: 140%; /* 22.4px */
+}
 // ===============> Reset bootstrap button style <=================
 .navbar-toggler:focus {
     box-shadow: none;

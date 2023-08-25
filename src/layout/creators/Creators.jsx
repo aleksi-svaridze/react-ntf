@@ -1,7 +1,7 @@
 import { CreatorsCardDesktop, CreatorsCardMobile } from "../../components/creators-card/CreatorsCard";
 import { PrimaryHeading } from "../../components/headings/Headings";
 import BtnIconRocket from '../../media/images/collection/RocketLaunch.svg'
-import Buttons from "../../components/buttons/Buttons";
+import Button from "../../components/buttons/Buttons";
 
 // Creators array data
 import Creator1 from '../../media/images/creators/Avatar1.png'
@@ -40,7 +40,8 @@ const Creators = () => {
                 heading='Top creators' 
                 desc='Checkout Top Rated Creators on the NFT Marketplace'
                 btnText='View Rankings'
-                btnIcon={BtnIconRocket} />
+                btnIcon={BtnIconRocket}
+                path='rankings' />
 
                 <div className="row py-5 gy-4 d-none d-sm-flex">
                     {creators.map(creator => (
@@ -62,10 +63,11 @@ const Creators = () => {
                         />
                     ))}
                 </div>
-                <Buttons 
+                <Button
                     icon={BtnIconRocket} 
                     content='View Rankings'
                     btnStyle='text-white btn_custom btn_custom--black heading-btn d-flex d-lg-none' 
+                    path='rankings'
                 />
         </div>
     )

@@ -11,6 +11,7 @@ const Nfts = () => {
                 desc='Explore new trending NFTs'
                 btnText='See All'
                 btnIcon={eyeIcon}
+                path='nfts'
             />
 
             <div className="row g-4 py-4 my-1 py-lg-5 my-lg-2">
@@ -21,6 +22,7 @@ const Nfts = () => {
                 icon={eyeIcon} 
                 content={'See All'} 
                 btnStyle='text-white mt-3 btn_custom btn_custom--black heading-btn d-lg-none d-flex' 
+                path='nfts'
             /> 
         </div>
     )

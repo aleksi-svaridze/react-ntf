@@ -34,6 +34,7 @@ const Navbar = () => {
                                 text_color={'text-white'}
                                 icon={UserIcon}
                                 content={'Sign In'}
+                                path='signup'
                             />
                         </li>
                     </ul>
