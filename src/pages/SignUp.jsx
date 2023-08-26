@@ -1,6 +1,7 @@
 import { Desc, SecondaryHeading } from '../components/headings/Headings';
 import Input from '../components/input/Input';
 import signup_bg from '../media/images/signup/signup_bg.jpg'
+import signup_bg_sm from '../media/images/hero/hero_bg_sm.jpg'
 
 import userIcon from '../media/images/signup/user_icon.svg'
 import envelopeIcon from '../media/images/signup/envelope_icon.svg'
@@ -17,13 +18,14 @@ const SignUp = () => {
     return (
         <div className="container-fluid">
             <div className="row gy-5">
-                <div className="col-12 col-lg-6">
-                    <div className='text-center text-lg-end'>
-                        <img src={signup_bg} alt="" className='w-100' style={{maxWidth: '610px'}} />
+                <div className="col-12 col-lg-6 px-0">
+                    <div className='text-center'>
+                        <img src={signup_bg} alt="" className='w-100 d-none d-lg-block ms-auto' style={{maxWidth: '610px'}} />
+                        <img src={signup_bg_sm} alt="" className='w-100 d-lg-none d-block' />
                     </div>
                 </div>
                 <div className="col-12 col-lg-6">
-                    <div className='d-flex flex-column justify-content-center align-items-center align-items-lg-start h-100'>
+                    <div className='d-flex flex-column justify-content-center align-items-center align-items-lg-start h-100 ps-5'>
                         <SecondaryHeading content={'Create account'} customStyles='' />
                         <Desc 
                             customStyles='sign-up-desc mt-3 mb-4 pt-1 pb-3 text-center text-lg-start' 
