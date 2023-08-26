@@ -19,7 +19,7 @@ import UserImage3 from '../../media/images/collection/user_3.png'
 
 const Collection = () => {
     return (
-        <div className="container mt-5">
+        <div className="container mt-4 pt-3 pt-lg-0 mt-lg-5">
             <PrimaryHeading 
                 heading='Trending Collection' 
                 desc='Checkout our weekly updated trending collection.'

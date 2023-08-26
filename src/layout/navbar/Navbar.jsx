@@ -8,7 +8,7 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg py-3">
+        <nav className="navbar navbar-expand-lg py-2 py-lg-3">
             <div className="container">
                 <NavLink className="navbar-brand" to="/">
                     <img src={Logo} alt="" className='d-none d-lg-block' />
