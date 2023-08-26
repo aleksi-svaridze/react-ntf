@@ -1,4 +1,5 @@
 import Logo from '../../media/images/navbar/Logo.svg';
+import logo_sm from '../../media/images/navbar/logo_sm.svg';
 import UserIcon from '../../media/images/navbar/User.svg';
 import Button from '../../components/buttons/Buttons';
 import burgerMenu from '../../media/images/navbar/BurgerMenu.svg';
@@ -10,7 +11,8 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg py-3">
             <div className="container">
                 <NavLink className="navbar-brand" to="/">
-                    <img src={Logo} alt="" />
+                    <img src={Logo} alt="" className='d-none d-lg-block' />
+                    <img src={logo_sm} alt="" className='d-lg-none d-block' />
                 </NavLink>
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
