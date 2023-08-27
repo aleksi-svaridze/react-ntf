@@ -16,7 +16,7 @@ const SignUp = () => {
         {id: 4, text: 'Confirm Password', icon: lockIcon, type: 'password'},
     ]
     return (
-        <div className="container-fluid">
+        <div className="container-fluid mb-4 pb-3 mb-lg-0 pb-lg-0">
             <div className="row gy-5">
                 <div className="col-12 col-lg-6 px-0">
                     <div className='text-center'>

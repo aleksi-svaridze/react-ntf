@@ -13,6 +13,20 @@
     font-size: 38px;
     line-height: 120%;
 }
+.tertiary-heading {
+    font-size: 22px;
+    line-height: 160%;
+    margin-bottom: 20px;
+}
+.footer-desc {
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 20px;
+}
+.copyright {
+    font-size: 12px;
+    margin-top: 20px;
+}
 .sign-up-desc {
     font-size: 16px;
     font-style: normal;
@@ -56,5 +70,9 @@
     .secondary-heading {
         font-size: 51px;
         line-height: 110%; 
+    }
+
+    .tertiary-heading {
+        margin-bottom: 25px;
     }
 }

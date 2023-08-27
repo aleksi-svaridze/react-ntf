@@ -6,6 +6,7 @@ import SignUp from './pages/SignUp';
 import Home from './pages/Home';
 
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import Footer from "./layout/footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='wallet' element={<Wallet />} />
           <Route path='signup' element={<SignUp />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
   );
 }
