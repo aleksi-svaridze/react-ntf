@@ -35,10 +35,12 @@ const SignUp = () => {
                             {
                                 inputData.map(item => (
                                     <Input 
+                                        inputContainerStyle='position-relative input'
                                         text={item.text} 
-                                        icon={item.icon} 
+                                        inputIcon={item.icon} 
                                         type={item.type} 
                                         id={item.id} 
+                                        inputStyle='input__type position-absolute text-black-primary fw-normal'
                                     />
                                 ))
                             }

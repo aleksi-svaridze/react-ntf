@@ -1,10 +1,18 @@
+import Button from "../buttons/Buttons";
 
-
-const Input = ({id, type, icon, text}) => {
+const Input = ({inputContainerStyle, id, type, inputIcon, text, inputStyle, icon, path, content, btnStyle}) => {
     return(
-        <div className="position-relative input" key={id}>
-            <input type={type} className="input__type position-absolute text-black-primary fw-normal" placeholder={text} />
-            { icon ? <img src={icon} alt={text} className="input__icon position-absolute" /> : null}
+        <div className={inputContainerStyle} key={id}>
+            <input type={type} className={inputStyle} placeholder={text} />
+            { inputIcon ? <img src={inputIcon} alt={text} className="input__icon position-absolute" /> : null}
+
+            { path && <Button 
+                        path={path}
+                        icon={icon}
+                        content={content}
+                        btnStyle={btnStyle}
+                    />
+            }
         </div>
     )
 }

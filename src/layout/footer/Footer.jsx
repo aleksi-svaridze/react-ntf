@@ -4,6 +4,7 @@ import discordIcon from '../../media/images/footer/DiscordLogo.svg'
 import youtubeIcon from '../../media/images/footer/YoutubeLogo.svg'
 import twitterIcon from '../../media/images/footer/TwitterLogo.svg'
 import instagramIcon from '../../media/images/footer/InstagramLogo.svg'
+import Input from '../../components/input/Input';
 
 const Footer = () => {
     return (
@@ -49,6 +50,21 @@ const Footer = () => {
                                 Join our weekly digest
                             </h3>
                             <p className='text-gray footer-desc'>Get exclusive promotions & updates<br /> straight to your inbox.</p>
+
+                            <Input 
+                                inputContainerStyle='position-relative subscribe-form w-100 bg-danger overflow-hidden'
+                                id=''
+                                type='email'
+                                inputIcon=''
+                                text='Enter your email here'
+                                inputStyle='position-absolute subscribe-form--input fw-normal start-0 top-0 bottom-0 end-0 h-100'
+
+                                icon=''
+                                path='subscribe'
+                                content='Subscribe'
+                                btnStyle='bg-purple position-absolute text-decoration-none fw-semibold text-white d-flex align-items-center justify-content-center subscribe-form--btn end-0 top-0 bottom-0 h-100'
+                            />
+
                         </div>
                     </div>
                 </div>
