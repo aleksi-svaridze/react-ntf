@@ -5,6 +5,8 @@ import youtubeIcon from '../../media/images/footer/YoutubeLogo.svg'
 import twitterIcon from '../../media/images/footer/TwitterLogo.svg'
 import instagramIcon from '../../media/images/footer/InstagramLogo.svg'
 import Input from '../../components/input/Input';
+import Button from '../../components/buttons/Buttons';
+import envelopeIcon from '../../media/images/footer/EnvelopeSimple.svg';
 
 const Footer = () => {
     return (
@@ -34,7 +36,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-12 col-lg-3">
+                    <div className="col-12 col-lg-2">
                         <div className="mb-4">
                             <h3 className="tertiary-heading text-white font-spacemono fw-bold text-capitalize">
                                 Explore
@@ -44,7 +46,7 @@ const Footer = () => {
                             <Link to="wallet" className='footer-desc text-decoration-none d-block text-gray'>Connect a wallet</Link>
                         </div>
                     </div>
-                    <div className="col-12 col-lg-5">
+                    <div className="col-12 col-lg-6">
                         <div className="mb-4">
                             <h3 className="tertiary-heading text-white font-spacemono fw-bold text-capitalize">
                                 Join our weekly digest
@@ -52,7 +54,7 @@ const Footer = () => {
                             <p className='text-gray footer-desc'>Get exclusive promotions & updates<br /> straight to your inbox.</p>
 
                             <Input 
-                                inputContainerStyle='position-relative subscribe-form w-100 bg-danger overflow-hidden'
+                                inputContainerStyle='position-relative subscribe-form w-100 overflow-hidden d-none d-sm-block'
                                 id=''
                                 type='email'
                                 inputIcon=''
@@ -62,7 +64,22 @@ const Footer = () => {
                                 icon=''
                                 path='subscribe'
                                 content='Subscribe'
-                                btnStyle='bg-purple position-absolute text-decoration-none fw-semibold text-white d-flex align-items-center justify-content-center subscribe-form--btn end-0 top-0 bottom-0 h-100'
+                                btnStyle='bg-purple position-absolute text-decoration-none fw-semibold text-white d-flex align-items-center justify-content-center subscribe-form--btn top-0 bottom-0 end-0'
+                            />
+
+                            <Input
+                                inputContainerStyle='position-relative subscribe-form w-100 overflow-hidden d-sm-none d-block'
+                                id=''
+                                type='email'
+                                inputIcon=''
+                                text='Enter your email here'
+                                inputStyle='position-absolute subscribe-form--input fw-normal start-0 top-0 bottom-0 end-0' 
+                            />
+                            <Button
+                                icon={envelopeIcon}
+                                path='subscribe'
+                                content='Subscribe'
+                                btnStyle='bg-purple text-decoration-none fw-semibold text-white d-sm-none d-flex align-items-center column-gap-3 mt-3 mt-sm-0 justify-content-center subscribe-form--btn w-100'
                             />
 
                         </div>

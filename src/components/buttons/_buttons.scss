@@ -45,9 +45,8 @@
     line-height: 140%; /* 22.4px */
 }
 .subscribe-form {
-    height: 60px;
+    height: 40px;
     border-radius: 20px;
-    max-width: 420px;
 
     &--input {
         border: none;
@@ -55,13 +54,47 @@
 
         font-size: 16px;
         line-height: 140%;
-        padding: 16px 12px 16px 20px;
+        padding: 16px 20px;
+
+        &::placeholder {
+            font-size: 16px;
+            line-height: 140%;
+        }
     }
     &--btn {
         width: 179px;
         border-radius: 20px;
         font-size: 16px;
         line-height: 140%;
+        height: 40px;
+    }
+}
+@media screen and (min-width: 576px) {
+    .subscribe-form {
+        height: 60px;
+        border-radius: 20px;
+        max-width: 420px;
+    
+        &--input {
+            border: none;
+            outline: none;
+    
+            font-size: 16px;
+            line-height: 140%;
+            padding: 16px 12px 16px 20px;
+    
+            &::placeholder {
+                font-size: 16px;
+                line-height: 140%;
+            }
+        }
+        &--btn {
+            width: 179px;
+            border-radius: 20px;
+            font-size: 16px;
+            line-height: 140%;
+            height: 60px;
+        }
     }
 }
 // ===============> Reset bootstrap button style <=================
