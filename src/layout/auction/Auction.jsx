@@ -6,7 +6,9 @@ const Auction = () => {
         <div className="auction-container">
             <div className="auction-img-wrapper">
                 <div className="container">
-                    hellooooooo
+                    <div className="row">
+                        button here
+                    </div>
                 </div>
             </div>
         </div>
