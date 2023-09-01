@@ -1,9 +1,5 @@
 .auction-container {
-    max-width: 1320px;
-    margin: 0 auto;
-}
-.auction-img-wrapper {
-    height: 640px;
+    height: 593px;
     background-image: 
         linear-gradient(180deg, rgba(162, 89, 255, 0.00) 0%, #A259FF 100%), 
         url(../../media/images/auction/auction_product_sm.jpg);
@@ -11,7 +7,13 @@
     background-repeat: no-repeat;
     background-size: cover;
 
+    &--title {
+        font-size: 51px;
+        line-height: 110%;
+    }
+
     @media screen and (min-width: 576px) {
+        height: 640px;
         background-image: 
         linear-gradient(180deg, rgba(162, 89, 255, 0.00) 0%, #A259FF 100%), 
         url(../../media/images/auction/auction_product.jpg);

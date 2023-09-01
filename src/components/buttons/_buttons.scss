@@ -1,4 +1,5 @@
 .btn_custom {
+    text-decoration: none;
     border-radius: 20px;
     height: 60px;
 
@@ -35,6 +36,10 @@
 }
 .heading-btn {
     padding: 0 50px;
+}
+.auction-btn {
+    padding: 0 50px;
+    line-height: 140%;
 }
 .form-button {
     max-width: 330px;
