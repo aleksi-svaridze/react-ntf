@@ -3,6 +3,7 @@ import Collection from "../layout/collection/Collection";
 import Creators from "../layout/creators/Creators";
 import Categories from "../layout/categories/Categories";
 import Nfts from "../layout/nfts/Nfts";
+import Auction from "../layout/auction/Auction";
 
 
 const Home = () => {
@@ -12,7 +13,8 @@ const Home = () => {
       <Collection />
       <Creators />
       <Categories />
-      <Nfts />    
+      <Nfts />   
+      <Auction /> 
     </div>
   );
 }
