@@ -1,5 +1,7 @@
 import Button from "../../components/buttons/Buttons";
+import User from "../../components/users/User";
 import buttonIcon from '../../media/images/nfts/Eye.svg'
+import userImg from '../../media/images/collection/user_2.png'
 
 
 const Auction = () => {
@@ -8,14 +10,18 @@ const Auction = () => {
             <div className="container position-absolute bottom-0 start-50 translate-middle-x pb-4 pb-md-5">
                 <div className="row pb-4">
                     <div className="col-12 pb-2">
-                        boppp
+                        <User 
+                            marginBottom='' 
+                            imageSrc={userImg} 
+                            content='Shroomie' 
+                            userContainer='user--autcion d-inline-flex' />
                     </div>
                 </div>
 
                 <div className="row pb-3">
                     <div className="col-12 col-lg-7">
                         <div>
-                            <h2 className="auction-container--title text-white text-capitalize fw-semibold mb-4 pb-2">Magic Mashrooms</h2>
+                            <h2 className="auction-container--title text-white text-capitalize fw-semibold mb-4 pb-2 pe-5 pe-sm-0">Magic Mashrooms</h2>
                             <Button 
                                 path='see-nfts' 
                                 icon={buttonIcon} 
@@ -26,7 +32,6 @@ const Auction = () => {
                     </div>
                     <div className="col-12 col-lg-5">
                         <div>
-
                             <Button 
                                 path='see-nfts' 
                                 icon={buttonIcon} 
