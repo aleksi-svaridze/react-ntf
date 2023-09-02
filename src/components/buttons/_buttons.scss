@@ -40,6 +40,11 @@
 .auction-btn {
     padding: 0 50px;
     line-height: 140%;
+    margin-top: 30px;
+    
+    @media screen and (min-width: 992px) {
+        margin-top: initial;
+    }
 }
 .form-button {
     max-width: 330px;

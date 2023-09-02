@@ -2,6 +2,7 @@ import Button from "../../components/buttons/Buttons";
 import User from "../../components/users/User";
 import buttonIcon from '../../media/images/nfts/Eye.svg'
 import userImg from '../../media/images/collection/user_2.png'
+import Timer from "../../components/timer/Timer";
 
 
 const Auction = () => {
@@ -32,6 +33,7 @@ const Auction = () => {
                     </div>
                     <div className="col-12 col-lg-5">
                         <div>
+                            <Timer />
                             <Button 
                                 path='see-nfts' 
                                 icon={buttonIcon} 
