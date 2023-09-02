@@ -32,7 +32,7 @@ const Auction = () => {
                         </div>
                     </div>
                     <div className="col-12 col-lg-5">
-                        <div>
+                        <div className="d-lg-flex justify-content-lg-end">
                             <Timer />
                             <Button 
                                 path='see-nfts' 

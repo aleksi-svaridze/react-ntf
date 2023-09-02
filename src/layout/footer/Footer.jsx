@@ -13,7 +13,7 @@ const Footer = () => {
         <footer className="bg-black-secondary py-4">
             <div className="container py-3 px-3 px-lg-auto">
                 <div className="row px-auto px-lg-4">
-                    <div className="col-12 col-lg-4">
+                    <div className="col-12 col-lg-4 col-xl-4 col-xxl-5">
                         <div className="mb-4">
                             <h3 className="tertiary-heading text-white font-spacemono fw-bold text-capitalize">
                                 <img src={logo} alt="" />
@@ -36,7 +36,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-12 col-lg-2">
+                    <div className="col-12 col-lg-2 col-xl-3 col-xxl-3">
                         <div className="mb-4">
                             <h3 className="tertiary-heading text-white font-spacemono fw-bold text-capitalize">
                                 Explore
@@ -46,7 +46,7 @@ const Footer = () => {
                             <Link to="wallet" className='footer-desc text-decoration-none d-block text-gray'>Connect a wallet</Link>
                         </div>
                     </div>
-                    <div className="col-12 col-lg-6">
+                    <div className="col-12 col-lg-6 col-xl-5 col-xxl-4">
                         <div className="mb-4">
                             <h3 className="tertiary-heading text-white font-spacemono fw-bold text-capitalize">
                                 Join our weekly digest
@@ -75,6 +75,7 @@ const Footer = () => {
                                 text='Enter your email here'
                                 inputStyle='position-absolute subscribe-form--input fw-normal start-0 top-0 bottom-0 end-0' 
                             />
+
                             <Button
                                 icon={envelopeIcon}
                                 path='subscribe'
