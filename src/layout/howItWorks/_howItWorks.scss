@@ -1,0 +1,9 @@
+.how-it-works-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    @media screen and (min-width: 768px) {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+}

@@ -1,0 +1,27 @@
+.howItWorks-card--container {
+    padding: 10px 30px 30px 30px;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    background: var(--Background---Secondary, #3B3B3B);
+}
+
+.howItWorks-card--text-content {
+    &--title {
+        color: #FFF;
+        text-align: center;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%; /* 30.8px */
+        text-transform: capitalize;
+    }
+
+    &--desc {
+        color: var(--White, #FFF);
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 140%; /* 22.4px */
+    }
+}
