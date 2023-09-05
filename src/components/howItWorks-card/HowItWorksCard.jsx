@@ -1,13 +1,14 @@
-import img1 from '../../media/images/howItWorks/wallet.png'
 
 
-const HowItWorksCard = () => {
+const HowItWorksCard = (props) => {
+    let {id, img, title, desc} = props.item;
+
     return(
-        <div className="howItWorks-card--container d-flex flex-lg-column">
-            <img src={img1} alt="" />
-            <div className='howItWorks-card--text-content'>
-                <h2 className='howItWorks-card--text-content--title'>Setup Your wallet</h2>
-                <p className='howItWorks-card--text-content--desc'>Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.</p>
+        <div className="howItWorks-card--container d-flex flex-lg-column align-items-center" key={id}>
+            <img src={img} alt="" />
+            <div className='howItWorks-card--text-content text-white'>
+                <h2 className='howItWorks-card--text-content--title text-capitalize fw-semibold'>{title}</h2>
+                <p className='howItWorks-card--text-content--desc mb-0'>{desc}</p>
             </div>
         </div>
     )
