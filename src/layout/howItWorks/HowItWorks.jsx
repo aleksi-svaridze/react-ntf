@@ -3,6 +3,7 @@ import HowItWorksCard from "../../components/howItWorks-card/HowItWorksCard";
 import imgWallet from '../../media/images/howItWorks/wallet.png'
 import imgCollection from '../../media/images/howItWorks/collection.png'
 import imgEarning from '../../media/images/howItWorks/earning.png'
+import { PrimaryHeading } from "../../components/headings/Headings";
 
 
 const HowItWorks = () => {
@@ -13,7 +14,8 @@ const HowItWorks = () => {
     ]
     return(
         <div className="how-it-works-container container">
-             <div className="row gy-4 gy-lg-0">
+            <PrimaryHeading heading={'How it works'} desc={'Find out how to get started'} />
+             <div className="row gy-4 gy-lg-0 mt-3 mt-lg-5">
                 {
                     data.map(item => (
                     <div className="col-12 col-lg-4">
