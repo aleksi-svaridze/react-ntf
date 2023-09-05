@@ -39,17 +39,19 @@ const Categories = () => {
     ]
     return (
         <div className="container py-4 mt-5">
-            <PrimaryHeading heading='Browse Categories'/>
+            <div className="layout-container">
+                <PrimaryHeading heading='Browse Categories'/>
 
-            <div className="row g-3 g-lg-4 py-4 my-1 py-lg-5 my-lg-2">
-                {categories.map(item => (
-                        <CategoriesCard 
-                        id={item.id} 
-                        image={item.image} 
-                        icon={item.icon}
-                        text={item.text}
-                    />
-                ))}
+                <div className="row g-3 g-lg-4 py-4 my-1 py-lg-5 my-lg-2">
+                    {categories.map(item => (
+                            <CategoriesCard 
+                            id={item.id} 
+                            image={item.image} 
+                            icon={item.icon}
+                            text={item.text}
+                        />
+                    ))}
+                </div>
             </div>
         </div>
     )

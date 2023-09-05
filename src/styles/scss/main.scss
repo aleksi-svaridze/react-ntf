@@ -25,3 +25,15 @@
 @import '../../layout/howItWorks/howItWorks';
 @import '../../layout/signup/sign-up';
 @import '../../layout/subscribe/subscribe';
+
+.navigation-container {
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.layout-container {
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -20,41 +20,43 @@ import UserImage3 from '../../media/images/collection/user_3.png'
 const Collection = () => {
     return (
         <div className="container mt-4 pt-3 pt-lg-0 mt-lg-5">
-            <PrimaryHeading 
-                heading='Trending Collection' 
-                desc='Checkout our weekly updated trending collection.'
-            />
+            <div className="layout-container">
+                <PrimaryHeading 
+                    heading='Trending Collection' 
+                    desc='Checkout our weekly updated trending collection.'
+                />
 
-            <div className="row py-5 my-3">
-                <div className="col-12 col-lg-6 col-xl-4">
-                    <CollectionCard 
-                        mainImage={mainImage1}
-                        shortcat1={User1}
-                        shortcat2={User2}
-                        num='1025'
-                        userImage={UserImage1}
-                        content='MrFox'
-                        categories='DSGN Animals' />
-                </div>
-                <div className="d-none d-lg-block col-lg-6 col-xl-4">
-                    <CollectionCard 
-                        mainImage={mainImage2}
-                        shortcat1={User3}
-                        shortcat2={User4}
-                        num='1025'
-                        userImage={UserImage2}
-                        content='Shroomie'
-                        categories='Magic Mushrooms' />
-                </div>
-                <div className="d-none d-xl-block col-lg-6 col-xl-4">
-                    <CollectionCard 
-                        mainImage={mainImage3}
-                        shortcat1={User5}
-                        shortcat2={User6}
-                        num='1025'
-                        userImage={UserImage3}
-                        content='BeKind2Robots'
-                        categories='Disco Machines' />
+                <div className="row py-5 my-3">
+                    <div className="col-12 col-lg-6 col-xl-4">
+                        <CollectionCard 
+                            mainImage={mainImage1}
+                            shortcat1={User1}
+                            shortcat2={User2}
+                            num='1025'
+                            userImage={UserImage1}
+                            content='MrFox'
+                            categories='DSGN Animals' />
+                    </div>
+                    <div className="d-none d-lg-block col-lg-6 col-xl-4">
+                        <CollectionCard 
+                            mainImage={mainImage2}
+                            shortcat1={User3}
+                            shortcat2={User4}
+                            num='1025'
+                            userImage={UserImage2}
+                            content='Shroomie'
+                            categories='Magic Mushrooms' />
+                    </div>
+                    <div className="d-none d-xl-block col-lg-6 col-xl-4">
+                        <CollectionCard 
+                            mainImage={mainImage3}
+                            shortcat1={User5}
+                            shortcat2={User6}
+                            num='1025'
+                            userImage={UserImage3}
+                            content='BeKind2Robots'
+                            categories='Disco Machines' />
+                    </div>
                 </div>
             </div>
         </div>

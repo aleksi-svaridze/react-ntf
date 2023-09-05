@@ -14,15 +14,17 @@ const HowItWorks = () => {
     ]
     return(
         <div className="how-it-works-container container">
-            <PrimaryHeading heading={'How it works'} desc={'Find out how to get started'} />
-             <div className="row gy-4 gy-lg-0 mt-3 mt-lg-5">
-                {
-                    data.map(item => (
-                    <div className="col-12 col-lg-4">
-                        <HowItWorksCard item={item} />
-                    </div>
-                    ))
-                }
+            <div className="layout-container">
+                <PrimaryHeading heading={'How it works'} desc={'Find out how to get started'} />
+                <div className="row gy-4 gy-lg-0 mt-3 mt-lg-5">
+                    {
+                        data.map(item => (
+                        <div className="col-12 col-lg-4">
+                            <HowItWorksCard item={item} />
+                        </div>
+                        ))
+                    }
+                </div>
             </div>
         </div>
     )

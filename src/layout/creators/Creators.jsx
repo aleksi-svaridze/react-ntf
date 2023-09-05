@@ -36,6 +36,7 @@ const Creators = () => {
     ]
     return (
         <div className="container pb-5 mb-4">
+            <div className="layout-container">
             <PrimaryHeading 
                 heading='Top creators' 
                 desc='Checkout Top Rated Creators on the NFT Marketplace'
@@ -69,6 +70,7 @@ const Creators = () => {
                     btnStyle='text-white btn_custom btn_custom--black heading-btn d-flex d-lg-none' 
                     path='rankings'
                 />
+            </div>
         </div>
     )
 }
