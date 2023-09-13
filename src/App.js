@@ -7,6 +7,7 @@ import Home from './pages/Home';
 
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Footer from "./layout/footer/Footer";
+import TopCreator from "./pages/TopCreator";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='rankings' element={<Ranking />} />
           <Route path='wallet' element={<Wallet />} />
           <Route path='signup' element={<SignUp />} />
+          <Route path='top-creator' element={<TopCreator />} />
         </Routes>
         <Footer />
       </BrowserRouter>
