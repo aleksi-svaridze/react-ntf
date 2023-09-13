@@ -50,7 +50,7 @@ const TopCreator = () => {
     ]
 
     let output = null;
-    
+
     if(width >= 768) {
         output =  creatorsPortfolioData;
     }
@@ -59,7 +59,7 @@ const TopCreator = () => {
     }
 
     return(
-        <>
+        <div>
             <div 
                 className="top-creators__profile" 
                 style={{backgroundImage: `url(${width >= 992 ? userCoverDesktop : userCoverMobile})`}}>
@@ -164,7 +164,7 @@ const TopCreator = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
