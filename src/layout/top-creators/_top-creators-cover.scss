@@ -13,6 +13,26 @@
         transform: translateX(-50%);
     }
 
+    &--text-content {
+        padding: 90px 0 30px;
+    }
+
+    &--title {
+        font-size: 28px;
+        font-style: normal;
+        line-height: 140%;
+    }
+
+    &--btns-wrapper {
+        margin: 30px 0;
+    }
+
+    @media screen and (min-width: 768px) {
+        &--btns-wrapper {
+            margin: initial;
+        }
+    }
+
     @media screen and (min-width: 992px) {
         height: 320px;
 
@@ -21,6 +41,15 @@
             height: 120px;
             left: 0;
             transform: initial;
+        }
+
+        &--text-content {
+            padding: 100px 0 40px;
+        }
+
+        &--title {
+            font-size: 51px;
+            line-height: 110%;
         }
     }
 }
