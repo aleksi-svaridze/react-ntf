@@ -8,9 +8,9 @@ import { Desc } from "../../components/headings/Headings";
 
 const Hero = () => {
     const counterData = [
-        {id: 1, num: 240, desc: 'total sale'},
-        {id: 2, num: 100, desc: 'auctions'},
-        {id: 3, num: 240, desc: 'artists'},
+        {id: 1, num: '240k+', desc: 'total sale'},
+        {id: 2, num: '100k+', desc: 'auctions'},
+        {id: 3, num: '240k+', desc: 'artists'},
     ]
 
     return (
