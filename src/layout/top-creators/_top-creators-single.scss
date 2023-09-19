@@ -86,3 +86,37 @@
         }
     }
 }
+.tabs {
+    &--title {
+        font-size: 16px;
+        font-style: normal;
+        line-height: 140%;
+        padding: 29px 0 19px;
+        color: #858584;
+        cursor: pointer;
+        border-bottom: 2px solid transparent;
+    }
+    &--title-active {
+        color: white;
+        border-color: #858584;
+    }
+
+    @media screen and (min-width: 768px){
+        &--title {
+            font-size: 22px;
+            padding: 24px 0 14px;
+        }
+    }
+}
+.badge {
+    padding: 5px 10px;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 140%;
+    border-radius: 20px;
+    background-color: #3B3B3B;
+
+    &-active {
+        background: #858584;
+    }
+}

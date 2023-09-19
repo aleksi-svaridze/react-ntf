@@ -3,15 +3,19 @@
 
     &__desc {
         font-size: 12px;
-        line-height: 110%; /* 13.2px */
+        line-height: 110%;
     }
 
     &__amount {
         font-size: 12px;
-        line-height: 140%; /* 22.4px */
+        line-height: 140%;
+    }
 
-        @media screen and (min-width: 567px) {
+    @media screen and (min-width: 992px) {
+
+        &__amount {
             font-size: 16px;
         }
+       
     }
 }

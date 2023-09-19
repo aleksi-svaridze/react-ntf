@@ -13,14 +13,14 @@ function App() {
   return (
       <BrowserRouter>
         <Navbar />
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='marketplace' element={<Marketplace />} />
-          <Route path='rankings' element={<Ranking />} />
-          <Route path='wallet' element={<Wallet />} />
-          <Route path='signup' element={<SignUp />} />
-          <Route path='creators' element={<TopCreator />} />
-        </Routes>
+            <Routes>
+              <Route path='/' element={<Home />} />
+              <Route path='marketplace' element={<Marketplace />} />
+              <Route path='rankings' element={<Ranking />} />
+              <Route path='wallet' element={<Wallet />} />
+              <Route path='signup' element={<SignUp />} />
+              <Route path='animakid' element={<TopCreator />} />
+            </Routes>
         <Footer />
       </BrowserRouter>
   );

@@ -57,17 +57,17 @@ const TopCreator = () => {
     else {
         output = creatorsPortfolioData.slice(0, 3);
     }
-
+ 
     return(
         <div>
-            <div 
-                className="top-creators__profile" 
+
+            <div className="top-creators__profile" 
                 style={{backgroundImage: `url(${width >= 992 ? userCoverDesktop : userCoverMobile})`}}>
-                    <div className="container h-100">
-                        <div className="layout-container position-relative h-100">
-                            <img src={userProfileImg} alt="" className="position-absolute top-creators__profile--img" />
-                        </div>
+                <div className="container h-100">
+                    <div className="layout-container position-relative h-100">
+                        <img src={userProfileImg} alt="" className="position-absolute top-creators__profile--img" />
                     </div>
+                </div>
             </div>
 
             <div className="container">
@@ -138,7 +138,20 @@ const TopCreator = () => {
 
             <div className="container">
                 <div className="layout-container">
-                    tabs here..
+                    <div className="row">
+                    
+                        <div className="col-4">
+                            <div className="text-center text-capitalize tabs--title tabs--title-active fw-semibold d-flex align-items-center justify-content-center column-gap-3">Created<span className="badge badge-active font-spacemono d-none d-md-block fw-normal">302</span></div>
+                        </div>
+
+                        <div className="col-4">
+                            <div className="text-center text-capitalize tabs--title fw-semibold d-flex align-items-center justify-content-center column-gap-3">owned<span className="badge font-spacemono d-none d-md-block fw-normal">67</span></div>
+                        </div>
+                        
+                        <div className="col-4">
+                            <div className="text-center text-capitalize tabs--title fw-semibold d-flex align-items-center justify-content-center column-gap-3">Collection<span className="badge font-spacemono d-none d-md-block fw-normal">4</span></div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -164,6 +177,7 @@ const TopCreator = () => {
                     </div>
                 </div>
             </div>
+
         </div>
     )
 }

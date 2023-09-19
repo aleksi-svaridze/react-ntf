@@ -51,6 +51,7 @@ const Creators = () => {
                             name={creator.name} 
                             image={creator.image} 
                             sales={creator.sales} 
+                            path={creator.name}
                         />
                     ))}
                 </div>
@@ -61,6 +62,7 @@ const Creators = () => {
                             name={creator.name} 
                             image={creator.image} 
                             sales={creator.sales} 
+                            path={creator.name}
                         />
                     ))}
                 </div>
