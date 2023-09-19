@@ -1,0 +1,358 @@
+[ 
+    {
+        "id": "1", 
+        "name": "keepitreal", 
+        "coverMobile": "/images/creators-profile-images/mobile/cover.jpg", 
+        "coverDesktop": "/images/creators-profile-images/desktop/cover.jpg", 
+        "userImage": "/images/creators/Avatar1.png", 
+        "ctaCode": "keepitreal", 
+        "sales": "34.5",
+        "stats": [
+            {"id": 1, "desc": "volume", "num": "250k+"},
+            {"id": 2, "desc": "NFTs Sold", "num": "50+"}, 
+            {"id": 3, "desc": "Followers", "num": "3000k+"}
+        ], 
+        "bio": "The internet's friendliest designer kid.", 
+        "socials": [
+            {"id": 1, "link": "/web/keepitreal", "icon": "../media/images/footer/GlobeLogo.svg"},
+            {"id": 2, "link": "/discord/keepitreal", "icon": "../media/images/footer/DiscordLogo.svg"},
+            {"id": 3, "link": "/youtube/keepitreal", "icon": "../media/images/footer/YoutubeLogo.svg"},
+            {"id": 4, "link": "/instagram/keepitreal", "icon": "../media/images/footer/InstagramLogo.svg"},
+            {"id": 5, "link": "/twitter/keepitreal", "icon": "../media/images/footer/TwitterLogo.svg"}
+        ], 
+        "created": 302, 
+        "owned": 67, 
+        "collection": 4, 
+        "card": [
+            {"id": 1, "cardCover": "../media/images/nfts/galaxy.png", "cardDesc": "Distant Galaxy", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH"},
+            {"id": 2, "cardCover": "../media/images/nfts/edena.png", "cardDesc": "Life On Edena", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" }
+        ]
+    },
+    {
+        "id": "2", 
+        "name": "DigiLab", 
+        "coverMobile": "../media/images/top-creators/cover/mobile/cover.jpg", 
+        "coverDesktop": "../media/images/top-creators/cover/desktop/cover.jpg", 
+        "userImage": "/images/creators/Avatar2.png", 
+        "ctaCode": "0xc0E3...B79C", 
+        "sales": "34.53",
+        "stats": [
+            {"id": 1, "desc": "volume", "num": "250k+"},
+            {"id": 2, "desc": "NFTs Sold", "num": "50+"}, 
+            {"id": 3, "desc": "Followers", "num": "3000k+"}
+        ], 
+        "bio": "The internet's friendliest designer kid.", 
+        "socials": [
+            {"id": 1, "link": "/web/DigiLab", "icon": "../media/images/footer/GlobeLogo.svg"},
+            {"id": 2, "link": "/discord/DigiLab", "icon": "../media/images/footer/DiscordLogo.svg"},
+            {"id": 3, "link": "/youtube/DigiLab", "icon": "../media/images/footer/YoutubeLogo.svg"},
+            {"id": 4, "link": "/instagram/DigiLab", "icon": "../media/images/footer/InstagramLogo.svg"},
+            {"id": 5, "link": "/twitter/DigiLab", "icon": "../media/images/footer/TwitterLogo.svg"}
+        ], 
+        "created": 302, 
+        "owned": 67, 
+        "collection": 4, 
+        "card": [
+            {"id": 1, "cardCover": "../media/images/nfts/galaxy.png", "cardDesc": "Distant Galaxy", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH"},
+            {"id": 2, "cardCover": "../media/images/nfts/edena.png", "cardDesc": "Life On Edena", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 3, "cardCover": "../media/images/nfts/edena.png", "cardDesc": "Life On Edena", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" }
+        ]
+    },
+    {
+        "id": "3", 
+        "name": "GravityOne", 
+        "coverMobile": "../media/images/top-creators/cover/mobile/cover.jpg", 
+        "coverDesktop": "../media/images/top-creators/cover/desktop/cover.jpg", 
+        "userImage": "/images/creators/Avatar3.png", 
+        "ctaCode": "0xc0E3...B79C", 
+        "sales": "34.53",
+        "stats": [
+            {"id": 1, "desc": "volume", "num": "250k+"},
+            {"id": 2, "desc": "NFTs Sold", "num": "50+"}, 
+            {"id": 3, "desc": "Followers", "num": "3000k+"}
+        ], 
+        "bio": "The internet's friendliest designer kid.", 
+        "socials": [
+            {"id": 1, "link": "/web/GravityOne", "icon": "../media/images/footer/GlobeLogo.svg"},
+            {"id": 2, "link": "/discord/GravityOne", "icon": "../media/images/footer/DiscordLogo.svg"},
+            {"id": 3, "link": "/youtube/GravityOne", "icon": "../media/images/footer/YoutubeLogo.svg"},
+            {"id": 4, "link": "/instagram/GravityOne", "icon": "../media/images/footer/InstagramLogo.svg"},
+            {"id": 5, "link": "/twitter/GravityOne", "icon": "../media/images/footer/TwitterLogo.svg"}
+        ], 
+        "created": 302, 
+        "owned": 67, 
+        "collection": 4, 
+        "card": [
+            {"id": 1, "cardCover": "../media/images/nfts/galaxy.png", "cardDesc": "Distant Galaxy", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH"},
+            {"id": 2, "cardCover": "../media/images/nfts/edena.png", "cardDesc": "Life On Edena", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" }
+        ]
+    },
+    {
+        "id": "4", 
+        "name": "Juanie", 
+        "coverMobile": "../media/images/top-creators/cover/mobile/cover.jpg", 
+        "coverDesktop": "../media/images/top-creators/cover/desktop/cover.jpg", 
+        "userImage": "/images/creators/Avatar4.png", 
+        "ctaCode": "0xc0E3...B79C", 
+        "sales": "34.53",
+        "stats": [
+            {"id": 1, "desc": "volume", "num": "250k+"},
+            {"id": 2, "desc": "NFTs Sold", "num": "50+"}, 
+            {"id": 3, "desc": "Followers", "num": "3000k+"}
+        ], 
+        "bio": "The internet's friendliest designer kid.", 
+        "socials": [
+            {"id": 1, "link": "/web/Juanie", "icon": "../media/images/footer/GlobeLogo.svg"},
+            {"id": 2, "link": "/discord/Juanie", "icon": "../media/images/footer/DiscordLogo.svg"},
+            {"id": 3, "link": "/youtube/Juanie", "icon": "../media/images/footer/YoutubeLogo.svg"},
+            {"id": 4, "link": "/instagram/Juanie", "icon": "../media/images/footer/InstagramLogo.svg"},
+            {"id": 5, "link": "/twitter/Juanie", "icon": "../media/images/footer/TwitterLogo.svg"}
+        ], 
+        "created": 302, 
+        "owned": 67, 
+        "collection": 4, 
+        "card": [
+            {"id": 1, "cardCover": "../media/images/nfts/galaxy.png", "cardDesc": "Distant Galaxy", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH"},
+            {"id": 2, "cardCover": "../media/images/nfts/edena.png", "cardDesc": "Life On Edena", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" }
+        ]
+    },
+    {
+        "id": "5", 
+        "name": "BlueWhale", 
+        "coverMobile": "../media/images/top-creators/cover/mobile/cover.jpg", 
+        "coverDesktop": "../media/images/top-creators/cover/desktop/cover.jpg", 
+        "userImage": "/images/creators/Avatar5.png", 
+        "ctaCode": "0xc0E3...B79C", 
+        "sales": "34.53",
+        "stats": [
+            {"id": 1, "desc": "volume", "num": "250k+"},
+            {"id": 2, "desc": "NFTs Sold", "num": "50+"}, 
+            {"id": 3, "desc": "Followers", "num": "3000k+"}
+        ], 
+        "bio": "The internet's friendliest designer kid.", 
+        "socials": [
+            {"id": 1, "link": "/web/BlueWhale", "icon": "../media/images/footer/GlobeLogo.svg"},
+            {"id": 2, "link": "/discord/BlueWhale", "icon": "../media/images/footer/DiscordLogo.svg"},
+            {"id": 3, "link": "/youtube/BlueWhale", "icon": "../media/images/footer/YoutubeLogo.svg"},
+            {"id": 4, "link": "/instagram/BlueWhale", "icon": "../media/images/footer/InstagramLogo.svg"},
+            {"id": 5, "link": "/twitter/BlueWhale", "icon": "../media/images/footer/TwitterLogo.svg"}
+        ], 
+        "created": 302, 
+        "owned": 67, 
+        "collection": 4, 
+        "card": [
+            {"id": 1, "cardCover": "../media/images/nfts/galaxy.png", "cardDesc": "Distant Galaxy", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH"},
+            {"id": 2, "cardCover": "../media/images/nfts/edena.png", "cardDesc": "Life On Edena", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" }
+        ]
+    },
+    {
+        "id": "6", 
+        "name": "mr fox", 
+        "coverMobile": "../media/images/top-creators/cover/mobile/cover.jpg", 
+        "coverDesktop": "../media/images/top-creators/cover/desktop/cover.jpg", 
+        "userImage": "/images/creators/Avatar6.png", 
+        "ctaCode": "0xc0E3...B79C", 
+        "sales": "34.53",
+        "stats": [
+            {"id": 1, "desc": "volume", "num": "250k+"},
+            {"id": 2, "desc": "NFTs Sold", "num": "50+"}, 
+            {"id": 3, "desc": "Followers", "num": "3000k+"}
+        ], 
+        "bio": "The internet's friendliest designer kid.", 
+        "socials": [
+            {"id": 1, "link": "/web/mr fox", "icon": "../media/images/footer/GlobeLogo.svg"},
+            {"id": 2, "link": "/discord/mr fox", "icon": "../media/images/footer/DiscordLogo.svg"},
+            {"id": 3, "link": "/youtube/mr fox", "icon": "../media/images/footer/YoutubeLogo.svg"},
+            {"id": 4, "link": "/instagram/mr fox", "icon": "../media/images/footer/InstagramLogo.svg"},
+            {"id": 5, "link": "/twitter/mr fox", "icon": "../media/images/footer/TwitterLogo.svg"}
+        ], 
+        "created": 302, 
+        "owned": 67, 
+        "collection": 4, 
+        "card": [
+            {"id": 1, "cardCover": "../media/images/nfts/galaxy.png", "cardDesc": "Distant Galaxy", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH"},
+            {"id": 2, "cardCover": "../media/images/nfts/edena.png", "cardDesc": "Life On Edena", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" }
+        ]
+    },
+    {
+        "id": "7", 
+        "name": "Shroomie", 
+        "coverMobile": "../media/images/top-creators/cover/mobile/cover.jpg", 
+        "coverDesktop": "../media/images/top-creators/cover/desktop/cover.jpg", 
+        "userImage": "/images/creators/Avatar7.png", 
+        "ctaCode": "0xc0E3...B79C", 
+        "sales": "34.53",
+        "stats": [
+            {"id": 1, "desc": "volume", "num": "250k+"},
+            {"id": 2, "desc": "NFTs Sold", "num": "50+"}, 
+            {"id": 3, "desc": "Followers", "num": "3000k+"}
+        ], 
+        "bio": "The internet's friendliest designer kid.", 
+        "socials": [
+            {"id": 1, "link": "/web/Shroomie", "icon": "../media/images/footer/GlobeLogo.svg"},
+            {"id": 2, "link": "/discord/Shroomie", "icon": "../media/images/footer/DiscordLogo.svg"},
+            {"id": 3, "link": "/youtube/Shroomie", "icon": "../media/images/footer/YoutubeLogo.svg"},
+            {"id": 4, "link": "/instagram/Shroomie", "icon": "../media/images/footer/InstagramLogo.svg"},
+            {"id": 5, "link": "/twitter/Shroomie", "icon": "../media/images/footer/TwitterLogo.svg"}
+        ], 
+        "created": 302, 
+        "owned": 67, 
+        "collection": 4, 
+        "card": [
+            {"id": 1, "cardCover": "../media/images/nfts/galaxy.png", "cardDesc": "Distant Galaxy", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH"},
+            {"id": 2, "cardCover": "../media/images/nfts/edena.png", "cardDesc": "Life On Edena", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" }
+        ]
+    },
+    {
+        "id": "8", 
+        "name": "robotica", 
+        "coverMobile": "../media/images/top-creators/cover/mobile/cover.jpg", 
+        "coverDesktop": "../media/images/top-creators/cover/desktop/cover.jpg", 
+        "userImage": "/images/creators/Avatar8.png", 
+        "ctaCode": "0xc0E3...B79C", 
+        "sales": "34.53",
+        "stats": [
+            {"id": 1, "desc": "volume", "num": "250k+"},
+            {"id": 2, "desc": "NFTs Sold", "num": "50+"}, 
+            {"id": 3, "desc": "Followers", "num": "3000k+"}
+        ], 
+        "bio": "The internet's friendliest designer kid.", 
+        "socials": [
+            {"id": 1, "link": "/web/robotica", "icon": "../media/images/footer/GlobeLogo.svg"},
+            {"id": 2, "link": "/discord/robotica", "icon": "../media/images/footer/DiscordLogo.svg"},
+            {"id": 3, "link": "/youtube/robotica", "icon": "../media/images/footer/YoutubeLogo.svg"},
+            {"id": 4, "link": "/instagram/robotica", "icon": "../media/images/footer/InstagramLogo.svg"},
+            {"id": 5, "link": "/twitter/robotica", "icon": "../media/images/footer/TwitterLogo.svg"}
+        ], 
+        "created": 302, 
+        "owned": 67, 
+        "collection": 4, 
+        "card": [
+            {"id": 1, "cardCover": "../media/images/nfts/galaxy.png", "cardDesc": "Distant Galaxy", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH"},
+            {"id": 2, "cardCover": "../media/images/nfts/edena.png", "cardDesc": "Life On Edena", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" }
+        ]
+    },
+    {
+        "id": "9", 
+        "name": "RustyRobot", 
+        "coverMobile": "../media/images/top-creators/cover/mobile/cover.jpg", 
+        "coverDesktop": "../media/images/top-creators/cover/desktop/cover.jpg", 
+        "userImage": "/images/creators/Avatar9.png", 
+        "ctaCode": "0xc0E3...B79C", 
+        "sales": "34.53",
+        "stats": [
+            {"id": 1, "desc": "volume", "num": "250k+"},
+            {"id": 2, "desc": "NFTs Sold", "num": "50+"}, 
+            {"id": 3, "desc": "Followers", "num": "3000k+"}
+        ], 
+        "bio": "The internet's friendliest designer kid.", 
+        "socials": [
+            {"id": 1, "link": "/web/RustyRobot", "icon": "../media/images/footer/GlobeLogo.svg"},
+            {"id": 2, "link": "/discord/RustyRobot", "icon": "../media/images/footer/DiscordLogo.svg"},
+            {"id": 3, "link": "/youtube/RustyRobot", "icon": "../media/images/footer/YoutubeLogo.svg"},
+            {"id": 4, "link": "/instagram/RustyRobot", "icon": "../media/images/footer/InstagramLogo.svg"},
+            {"id": 5, "link": "/twitter/RustyRobot", "icon": "../media/images/footer/TwitterLogo.svg"}
+        ], 
+        "created": 302, 
+        "owned": 67, 
+        "collection": 4, 
+        "card": [
+            {"id": 1, "cardCover": "../media/images/nfts/galaxy.png", "cardDesc": "Distant Galaxy", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH"},
+            {"id": 2, "cardCover": "../media/images/nfts/edena.png", "cardDesc": "Life On Edena", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" }
+        ]
+    },
+    {
+        "id": "10", 
+        "name": "animakid", 
+        "coverMobile": "/images/creators-profile-images/mobile/cover.jpg", 
+        "coverDesktop": "/images/creators-profile-images/desktop/cover.jpg", 
+        "userImage": "/images/creators-profile-images/profile-image/animakid.png", 
+        "ctaCode": "0xc0E3...B79C", 
+        "sales": "34.53",
+        "stats": [
+            {"id": 1, "desc": "volume", "num": "350k+"},
+            {"id": 2, "desc": "NFTs Sold", "num": "150+"}, 
+            {"id": 3, "desc": "Followers", "num": "4000k+"}
+        ], 
+        "bio": "The internet's friendliest designer kid.", 
+        "socials": [
+            {"id": 1, "link": "/web/animakid", "icon": "/images/soc-icons/GlobeLogo.svg"},
+            {"id": 2, "link": "/discord/animakid", "icon": "/images/soc-icons/DiscordLogo.svg"},
+            {"id": 3, "link": "/youtube/animakid", "icon": "/images/soc-icons/YoutubeLogo.svg"},
+            {"id": 4, "link": "/instagram/animakid", "icon": "/images/soc-icons/InstagramLogo.svg"},
+            {"id": 5, "link": "/twitter/animakid", "icon": "/images/soc-icons/TwitterLogo.svg"}
+        ], 
+        "created": 300, 
+        "owned": 70, 
+        "collection": 10, 
+        "card": [
+            {"id": 1, "cardCover": "/images/nft-card-images/galaxy.png", "cardDesc": "Distant Galaxy", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH"},
+            {"id": 2, "cardCover": "/images/nft-card-images/edena.png", "cardDesc": "Life On Edena", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 3, "cardCover": "/images/nft-card-images/astro.png", "cardDesc": "AstroFiction", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 4, "cardCover": "/images/nft-card-images/criptoCity.png", "cardDesc": "CryptoCity", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 5, "cardCover": "/images/nft-card-images/dog.png", "cardDesc": "ColorfulDog 0524", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 6, "cardCover": "/images/nft-card-images/tales.png", "cardDesc": "Space Tales", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 7, "cardCover": "/images/nft-card-images/girl.png", "cardDesc": "Cherry Blossom Girl 037", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 8, "cardCover": "/images/nft-card-images/robot.png", "cardDesc": "Dancing Robots 0987", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 9, "cardCover": "/images/nft-card-images/monkey.png", "cardDesc": "IceCream Ape", "cardBid": "0.83 wETH", "cardPrice": "1.83 ETH" }
+        ]
+    },
+    {
+        "id": "11", 
+        "name": "Dotgu", 
+        "coverMobile": "../media/images/top-creators/cover/mobile/cover.jpg", 
+        "coverDesktop": "../media/images/top-creators/cover/desktop/cover.jpg", 
+        "userImage": "/images/creators/Avatar11.png", 
+        "ctaCode": "0xc0E3...B79C", 
+        "sales": "34.53",
+        "stats": [
+            {"id": 1, "desc": "volume", "num": "250k+"},
+            {"id": 2, "desc": "NFTs Sold", "num": "50+"}, 
+            {"id": 3, "desc": "Followers", "num": "3000k+"}
+        ], 
+        "bio": "The internet's friendliest designer kid.", 
+        "socials": [
+            {"id": 1, "link": "/web/Dotgu", "icon": "../media/images/footer/GlobeLogo.svg"},
+            {"id": 2, "link": "/discord/Dotgu", "icon": "../media/images/footer/DiscordLogo.svg"},
+            {"id": 3, "link": "/youtube/Dotgu", "icon": "../media/images/footer/YoutubeLogo.svg"},
+            {"id": 4, "link": "/instagram/Dotgu", "icon": "../media/images/footer/InstagramLogo.svg"},
+            {"id": 5, "link": "/twitter/Dotgu", "icon": "../media/images/footer/TwitterLogo.svg"}
+        ], 
+        "created": 302, 
+        "owned": 67, 
+        "collection": 4, 
+        "card": [
+            {"id": 1, "cardCover": "../media/images/nfts/galaxy.png", "cardDesc": "Distant Galaxy", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH"},
+            {"id": 2, "cardCover": "../media/images/nfts/edena.png", "cardDesc": "Life On Edena", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" }
+        ]
+    },
+    {
+        "id": "12", 
+        "name": "Ghiblier", 
+        "coverMobile": "../media/images/top-creators/cover/mobile/cover.jpg", 
+        "coverDesktop": "../media/images/top-creators/cover/desktop/cover.jpg", 
+        "userImage": "/images/creators/Avatar12.png", 
+        "ctaCode": "0xc0E3...B79C", 
+        "sales": "34.53",
+        "stats": [
+            {"id": 1, "desc": "volume", "num": "250k+"},
+            {"id": 2, "desc": "NFTs Sold", "num": "50+"}, 
+            {"id": 3, "desc": "Followers", "num": "3000k+"}
+        ], 
+        "bio": "The internet's friendliest designer kid.", 
+        "socials": [
+            {"id": 1, "link": "/web/Ghiblier", "icon": "../media/images/footer/GlobeLogo.svg"},
+            {"id": 2, "link": "/discord/Ghiblier", "icon": "../media/images/footer/DiscordLogo.svg"},
+            {"id": 3, "link": "/youtube/Ghiblier", "icon": "../media/images/footer/YoutubeLogo.svg"},
+            {"id": 4, "link": "/instagram/Ghiblier", "icon": "../media/images/footer/InstagramLogo.svg"},
+            {"id": 5, "link": "/twitter/Ghiblier", "icon": "../media/images/footer/TwitterLogo.svg"}
+        ], 
+        "created": 302, 
+        "owned": 67, 
+        "collection": 4, 
+        "card": [
+            {"id": 1, "cardCover": "../media/images/nfts/galaxy.png", "cardDesc": "Distant Galaxy", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH"},
+            {"id": 2, "cardCover": "../media/images/nfts/edena.png", "cardDesc": "Life On Edena", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" }
+        ]
+    }
+]
