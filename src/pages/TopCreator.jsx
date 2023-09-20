@@ -1,5 +1,6 @@
 import { useWindowSize } from "usehooks-ts";
 import { Link, useParams} from "react-router-dom";
+import { useState } from "react";
 
 import NftsCard from "../components/nfts-card/NftsCard";
 import HeroServicesCounter from "../components/hero-services-counter/Hero-services-counter";
@@ -12,6 +13,7 @@ import cretorsSingleData from '../data/creators/creators.json'
 
 
 const TopCreator = () => {
+    let [toggleTabsState, setToggleTabsState] = useState(1);
     let {width} = useWindowSize();
     let {name} = useParams();
 
@@ -23,8 +25,12 @@ const TopCreator = () => {
         }
     }
 
+    let toggleTabContent = (index) => {
+        setToggleTabsState(index);
+    }
+
     return(
-        <div id="top">
+        <div>
             <div className="top-creators__profile" 
                 style={{backgroundImage: `url(${width >= 992 ? creator.coverDesktop : creator.coverMobile})`}}>
                 <div className="container h-100">
@@ -97,15 +103,17 @@ const TopCreator = () => {
                     <div className="row">
                     
                         <div className="col-4">
-                            <div className="text-center text-capitalize tabs--title tabs--title-active fw-semibold d-flex align-items-center justify-content-center column-gap-3">Created<span className="badge badge-active font-spacemono d-none d-md-block fw-normal">{creator.created}</span></div>
+                            <div 
+                            onClick={() => toggleTabContent(1)} 
+                            className={`text-center text-capitalize fw-semibold d-flex align-items-center justify-content-center column-gap-3 ${toggleTabsState === 1 ? 'tabs--title tabs--title-active' : 'tabs--title'}`}>Created<span className={`badge font-spacemono d-none d-md-block fw-normal ${toggleTabsState === 1 ? 'badge badge-active' : 'badge'}`}>{creator.created}</span></div>
                         </div>
 
                         <div className="col-4">
-                            <div className="text-center text-capitalize tabs--title fw-semibold d-flex align-items-center justify-content-center column-gap-3">owned<span className="badge font-spacemono d-none d-md-block fw-normal">{creator.owned}</span></div>
+                            <div onClick={() => toggleTabContent(2)} className={`text-center text-capitalize fw-semibold d-flex align-items-center justify-content-center column-gap-3 ${toggleTabsState === 2 ? 'tabs--title tabs--title-active' : 'tabs--title'}`}>owned<span className={`badge font-spacemono d-none d-md-block fw-normal ${toggleTabsState === 2 ? 'badge badge-active' : 'badge'}`}>{creator.owned}</span></div>
                         </div>
                         
                         <div className="col-4">
-                            <div className="text-center text-capitalize tabs--title fw-semibold d-flex align-items-center justify-content-center column-gap-3">Collection<span className="badge font-spacemono d-none d-md-block fw-normal">{creator.collection}</span></div>
+                            <div onClick={() => toggleTabContent(3)} className={`text-center text-capitalize fw-semibold d-flex align-items-center justify-content-center column-gap-3 ${toggleTabsState === 3 ? 'tabs--title tabs--title-active' : 'tabs--title'}`}>Collection<span className={`badge font-spacemono d-none d-md-block fw-normal ${toggleTabsState === 3 ? 'badge badge-active' : 'badge'}`}>{creator.collection}</span></div>
                         </div>
                     </div>
                 </div>
@@ -114,9 +122,58 @@ const TopCreator = () => {
             <div className="py-5 bg-black-secondary border-bottom border-2 border-black-primary">
                 <div className="container py-4">
                     <div className="layout-container py-2">
-                        <div className="row g-4">
+                        <div className={`row g-4 ${toggleTabsState === 1 ? 'd-flex' : 'd-none'}`}>
                             
-                            {creator.card.map(item => (
+                            {width <= 768 ? (creator.card.slice(0,3).map(item => (
+                                <div className="col-12 col-md-6 col-lg-4" key={item.id}>
+                                    <NftsCard
+                                        id={item.id}
+                                        price={item.cardPrice}
+                                        bid={item.cardBid}
+                                        image={item.cardCover}
+                                        text={item.cardDesc}
+                                        user={creator.userImage}
+                                        userName={creator.name}
+                                        styles={'bg-black-primary'}
+                                    />
+                                </div>
+                            ))) : (creator.card.map(item => (
+                                <div className="col-12 col-md-6 col-lg-4" key={item.id}>
+                                    <NftsCard
+                                        id={item.id}
+                                        price={item.cardPrice}
+                                        bid={item.cardBid}
+                                        image={item.cardCover}
+                                        text={item.cardDesc}
+                                        user={creator.userImage}
+                                        userName={creator.name}
+                                        styles={'bg-black-primary'}
+                                    />
+                                </div>
+                            )))}
+
+                        </div>
+                        <div className={`row g-4 ${toggleTabsState === 2 ? 'd-flex' : 'd-none'}`}>
+                            
+                            {creator.card.slice(0,5).map(item => (
+                                <div className="col-12 col-md-6 col-lg-4" key={item.id}>
+                                    <NftsCard
+                                        id={item.id}
+                                        price={item.cardPrice}
+                                        bid={item.cardBid}
+                                        image={item.cardCover}
+                                        text={item.cardDesc}
+                                        user={creator.userImage}
+                                        userName={creator.name}
+                                        styles={'bg-black-primary'}
+                                    />
+                                </div>
+                            ))}
+
+                        </div>
+                        <div className={`row g-4 ${toggleTabsState === 3 ? 'd-flex' : 'd-none'}`}>
+                            
+                            {creator.card.slice(0,3).map(item => (
                                 <div className="col-12 col-md-6 col-lg-4" key={item.id}>
                                     <NftsCard
                                         id={item.id}
