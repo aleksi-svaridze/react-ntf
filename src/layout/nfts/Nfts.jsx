@@ -34,7 +34,7 @@ const Nfts = () => {
 
                 <div className="row g-4 py-4 my-1 py-lg-5 my-lg-2">
                     {nftsCardData.map(item => (
-                        <div className="col-12 col-md-4">
+                        <div className="col-12 col-md-4" key={item.id}>
                             <NftsCard
                                 id={item.id}
                                 price={item.price}

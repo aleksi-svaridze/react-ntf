@@ -19,7 +19,7 @@ const HowItWorks = () => {
                 <div className="row gy-4 gy-lg-0 mt-3 mt-lg-5">
                     {
                         data.map(item => (
-                        <div className="col-12 col-lg-4">
+                        <div className="col-12 col-lg-4" key={item.id}>
                             <HowItWorksCard item={item} />
                         </div>
                         ))

@@ -34,7 +34,9 @@ const Hero = () => {
                         <div className="d-none d-lg-flex align-items-center justify-content-between pe-xl-5">
                             {
                                 counterData.map(item => (
-                                    <HeroServicesCounter id={item.id} num={item.num} desc={item.desc} />
+                                    <div className="counter" key={item.id}>
+                                        <HeroServicesCounter num={item.num} desc={item.desc} />
+                                    </div>
                                 ))
                             }
                         </div> 
@@ -52,7 +54,9 @@ const Hero = () => {
                         <div className="d-flex align-items-center justify-content-between d-lg-none">
                             {
                                 counterData.map(item => (
-                                    <HeroServicesCounter id={item.id} num={item.num} desc={item.desc} />
+                                    <div className="counter" key={item.id}>
+                                        <HeroServicesCounter num={item.num} desc={item.desc} />
+                                    </div>
                                 ))
                             }
                         </div>

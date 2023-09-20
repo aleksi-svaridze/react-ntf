@@ -1,11 +1,11 @@
 
 
-const HeroServicesCounter = ({id, num, desc}) => {
+const HeroServicesCounter = ({num, desc}) => {
     return (
-        <div className="counter" key={id}>
+        <>
             <p className="font-spacemono counter__number m-0">{num}</p>
             <p className="counter__desc m-0">{desc}</p>
-        </div>
+        </>
     )
 }
 

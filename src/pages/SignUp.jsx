@@ -30,14 +30,16 @@ const SignUp = () => {
                         <form style={{flexShrink: 0, maxWidth: '330px', width: '100%'}}>
                             {
                                 inputData.map(item => (
-                                    <Input 
-                                        inputContainerStyle='position-relative input'
-                                        text={item.text} 
-                                        inputIcon={item.icon} 
-                                        type={item.type} 
-                                        id={item.id} 
-                                        inputStyle='input__type position-absolute text-black-primary fw-normal'
-                                    />
+                                    <div key={item.id}>
+                                        <Input 
+                                            inputContainerStyle='position-relative input'
+                                            text={item.text} 
+                                            inputIcon={item.icon} 
+                                            type={item.type} 
+                                            id={item.id} 
+                                            inputStyle='input__type position-absolute text-black-primary fw-normal'
+                                        />
+                                    </div>
                                 ))
                             }
                             <Button 

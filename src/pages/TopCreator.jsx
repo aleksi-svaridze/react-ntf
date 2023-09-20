@@ -24,8 +24,7 @@ const TopCreator = () => {
     }
 
     return(
-        <div>
-           
+        <div id="top">
             <div className="top-creators__profile" 
                 style={{backgroundImage: `url(${width >= 992 ? creator.coverDesktop : creator.coverMobile})`}}>
                 <div className="container h-100">
@@ -62,7 +61,9 @@ const TopCreator = () => {
                         <div className="col-12 col-lg-6">
                             <div className="top-creators__profile--stats d-flex justify-content-between">
                                 {creator.stats.map(item => (
-                                    <HeroServicesCounter id={item.id} num={item.num} desc={item.desc} />
+                                     <div className="counter" key={item.id}>
+                                        <HeroServicesCounter num={item.num} desc={item.desc} />
+                                    </div>
                                 ))}
                             </div>
                         </div>
@@ -116,7 +117,7 @@ const TopCreator = () => {
                         <div className="row g-4">
                             
                             {creator.card.map(item => (
-                                <div className="col-12 col-md-6 col-lg-4">
+                                <div className="col-12 col-md-6 col-lg-4" key={item.id}>
                                     <NftsCard
                                         id={item.id}
                                         price={item.cardPrice}
@@ -134,7 +135,6 @@ const TopCreator = () => {
                     </div>
                 </div>
             </div>
-           
         </div>
     )
 }

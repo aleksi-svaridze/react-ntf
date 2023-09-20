@@ -18,24 +18,28 @@ const Creators = () => {
 
                 <div className="row py-5 gy-4 d-none d-sm-flex">
                     {creatorsData.map(creator => (
-                         <CreatorsCardDesktop 
-                            id={creator.id} 
-                            name={creator.name} 
-                            image={creator.userImage} 
-                            sales={creator.sales} 
-                            path={creator.name}
-                        />
+                        <div className="col-sm-6 col-md-4 col-xl-3" key={creator.id}>
+                            <CreatorsCardDesktop 
+                                id={creator.id} 
+                                name={creator.name} 
+                                image={creator.userImage} 
+                                sales={creator.sales} 
+                                path={creator.name}
+                            />
+                        </div>
                     ))}
                 </div>
                 <div className="row py-5 gy-4 d-flex d-sm-none">
                     {creatorsData.slice(0, 6).map(creator => (
-                         <CreatorsCardMobile 
-                            id={creator.id} 
-                            name={creator.name} 
-                            image={creator.userImage} 
-                            sales={creator.sales} 
-                            path={creator.name}
-                        />
+                         <div className="col-12" key={creator.id}>
+                            <CreatorsCardMobile 
+                                id={creator.id} 
+                                name={creator.name} 
+                                image={creator.userImage} 
+                                sales={creator.sales} 
+                                path={creator.name}
+                            />
+                        </div>
                     ))}
                 </div>
                 <Button
