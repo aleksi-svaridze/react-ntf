@@ -3,12 +3,6 @@
     line-height: 120%; /* 45.6px */
     margin-bottom: 10px;
 }
-
-.primary-desc {
-    font-size: 16px;
-    line-height: 160%; /* 35.2px */
-    margin-bottom: 0;
-}
 .secondary-heading {
     font-size: 38px;
     line-height: 120%;
@@ -17,6 +11,21 @@
     font-size: 22px;
     line-height: 160%;
     margin-bottom: 20px;
+}
+.fourthiary-heading {
+    font-size: 28px;
+    font-style: normal;
+    line-height: 140%;
+}
+.fourthiary-desc {
+    font-size: 16px;
+    font-style: normal;
+    line-height: 140%;
+}
+.primary-desc {
+    font-size: 16px;
+    line-height: 160%; /* 35.2px */
+    margin-bottom: 0;
 }
 .footer-desc {
     font-size: 16px;
@@ -62,17 +71,23 @@
     .primary-heading {
         font-size: 38px;
     }
-    
-    .primary-desc {
-        font-size: 22px;
-    }
-
     .secondary-heading {
         font-size: 51px;
         line-height: 110%; 
     }
-
     .tertiary-heading {
         margin-bottom: 25px;
+    }
+    .fourthiary-heading {
+        font-size: 51px;
+        line-height: 110%;
+    }
+    
+    .primary-desc {
+        font-size: 22px;
+    }
+    .fourthiary-desc {
+        font-size: 22px;
+        line-height: 160%;
     }
 }

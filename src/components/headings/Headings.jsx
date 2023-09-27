@@ -26,6 +26,12 @@ export const SecondaryHeading = ({content, customStyles}) => {
     )
 }
 
+export const FourthiaryHeading = ({content, customStyles}) => {
+    return(
+        <h1 className={`text-white text-capitalize fw-semibold m-0 ${customStyles}`}>{content}</h1>
+    )
+}
+
 export const Desc = ({customStyles, content}) => {
     return (
         <p className={`${customStyles} text-white text-capitalize fw-normal`}>{content}</p>

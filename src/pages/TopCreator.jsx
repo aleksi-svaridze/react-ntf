@@ -115,6 +115,7 @@ const TopCreator = () => {
                         <div className="col-4">
                             <div onClick={() => toggleTabContent(3)} className={`text-center text-capitalize fw-semibold d-flex align-items-center justify-content-center column-gap-3 ${toggleTabsState === 3 ? 'tabs--title tabs--title-active' : 'tabs--title'}`}>Collection<span className={`badge font-spacemono d-none d-md-block fw-normal ${toggleTabsState === 3 ? 'badge badge-active' : 'badge'}`}>{creator.collection}</span></div>
                         </div>
+                        
                     </div>
                 </div>
             </div>
