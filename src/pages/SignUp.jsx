@@ -1,11 +1,14 @@
 import { Desc, SecondaryHeading } from '../components/headings/Headings';
 import Input from '../components/input/Input';
-import SignUpBg from '../layout/signup/SugnUp';
+import HalfScreenImage from '../components/signup/HalfScreenImage';
 
 import userIcon from '../media/images/signup/user_icon.svg'
 import envelopeIcon from '../media/images/signup/envelope_icon.svg'
 import lockIcon from '../media/images/signup/lock_icon.svg'
 import Button from '../components/buttons/Buttons'
+
+import SignupDesktop from '../media/images/signup/signup_bg.jpg'
+import SignupMobile from '../media/images/signup/signup_bg_sm.jpg'
 
 const SignUp = () => {
     const inputData = [
@@ -18,7 +21,9 @@ const SignUp = () => {
         <div className="container-fluid pb-3 pb-lg-0">
             <div className="row">
                 <div className="col-12 col-lg-6 px-0">
-                    <SignUpBg />
+                    <HalfScreenImage 
+                        desktopImage={SignupDesktop}
+                        mobileImage={SignupMobile} />
                 </div>
                 <div className="col-12 col-lg-6 my-4 my-lg-5">
                     <div className='d-flex flex-column justify-content-center align-items-center align-items-lg-start h-100 ps-0 ps-lg-5 pt-2 py-lg-5'>

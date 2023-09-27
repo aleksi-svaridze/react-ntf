@@ -1,5 +1,4 @@
-.sign-up-bg {
-    background-image: url(../../media/images/signup/signup_bg_sm.jpg);
+.half_screen_image {
     height: 232px !important;
     background-size: cover;
     background-position: 50% 100%;
@@ -14,7 +13,6 @@
     }
 
     @media screen and (min-width: 992px) {
-        background-image: url(../../media/images/signup/signup_bg.jpg);
         height: 100% !important;
         background-position: center;
     }
