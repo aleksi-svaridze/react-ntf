@@ -2,11 +2,14 @@
     {
         "id": "1", 
         "name": "keepitreal", 
+        "fullName": "Jaydon Ekstrom Bothman",
+        "sold": "602",
+        "changes": "1.43%",
         "coverMobile": "/images/creators-profile-images/mobile/cover.jpg", 
         "coverDesktop": "/images/creators-profile-images/desktop/cover.jpg",  
         "userImage": "/images/creators/Avatar1.png", 
         "ctaCode": "keepitreal", 
-        "sales": "34.5",
+        "sales": "34.6",
         "stats": [
             {"id": 1, "desc": "volume", "num": "250k+"},
             {"id": 2, "desc": "NFTs Sold", "num": "50+"}, 
@@ -38,6 +41,9 @@
     {
         "id": "2", 
         "name": "DigiLab", 
+        "fullName": "Ruben Carder",
+        "sold": "600",
+        "changes": "1.49%",
         "coverMobile": "/images/creators-profile-images/mobile/cover.jpg", 
         "coverDesktop": "/images/creators-profile-images/desktop/cover.jpg",  
         "userImage": "/images/creators/Avatar2.png", 
@@ -74,6 +80,9 @@
     {
         "id": "3", 
         "name": "GravityOne", 
+        "fullName": "Alfredo Septimus",
+        "sold": "100",
+        "changes": "1.29%",
         "coverMobile": "/images/creators-profile-images/mobile/cover.jpg", 
         "coverDesktop": "/images/creators-profile-images/desktop/cover.jpg", 
         "userImage": "/images/creators/Avatar3.png", 
@@ -110,6 +119,9 @@
     {
         "id": "4", 
         "name": "Juanie", 
+        "fullName": "Davis Franci",
+        "sold": "200",
+        "changes": "1.99%",
         "coverMobile": "/images/creators-profile-images/mobile/cover.jpg", 
         "coverDesktop": "/images/creators-profile-images/desktop/cover.jpg", 
         "userImage": "/images/creators/Avatar4.png", 
@@ -146,6 +158,9 @@
     {
         "id": "5", 
         "name": "BlueWhale", 
+        "fullName": "Livia Rosser",
+        "sold": "250",
+        "changes": "1.98%",
         "coverMobile": "/images/creators-profile-images/mobile/cover.jpg", 
         "coverDesktop": "/images/creators-profile-images/desktop/cover.jpg",   
         "userImage": "/images/creators/Avatar5.png", 
@@ -182,6 +197,9 @@
     {
         "id": "6", 
         "name": "mr fox", 
+        "fullName": "Kianna Donin",
+        "sold": "240",
+        "changes": "1.88%",
         "coverMobile": "/images/creators-profile-images/mobile/cover.jpg", 
         "coverDesktop": "/images/creators-profile-images/desktop/cover.jpg",  
         "userImage": "/images/creators/Avatar6.png", 
@@ -218,6 +236,9 @@
     {
         "id": "7", 
         "name": "Shroomie", 
+        "fullName": "Phillip Lipshutz",
+        "sold": "247",
+        "changes": "1.48%",
         "coverMobile": "/images/creators-profile-images/mobile/cover.jpg", 
         "coverDesktop": "/images/creators-profile-images/desktop/cover.jpg", 
         "userImage": "/images/creators/Avatar7.png", 
@@ -254,6 +275,9 @@
     {
         "id": "8", 
         "name": "robotica", 
+        "fullName": "Maria Rosser",
+        "sold": "217",
+        "changes": "1.18%",
         "coverMobile": "/images/creators-profile-images/mobile/cover.jpg", 
         "coverDesktop": "/images/creators-profile-images/desktop/cover.jpg", 
         "userImage": "/images/creators/Avatar8.png", 
@@ -290,6 +314,9 @@
     {
         "id": "9", 
         "name": "RustyRobot", 
+        "fullName": "Kianna Stanton",
+        "sold": "117",
+        "changes": "1.28%",
         "coverMobile": "/images/creators-profile-images/mobile/cover.jpg", 
         "coverDesktop": "/images/creators-profile-images/desktop/cover.jpg", 
         "userImage": "/images/creators/Avatar9.png", 
@@ -326,6 +353,9 @@
     {
         "id": "10", 
         "name": "animakid", 
+        "fullName": "Randy Carder",
+        "sold": "107",
+        "changes": "1.25%",
         "coverMobile": "/images/creators-profile-images/mobile/cover.jpg", 
         "coverDesktop": "/images/creators-profile-images/desktop/cover.jpg",  
         "userImage": "/images/creators-profile-images/profile-image/animakid.png", 
@@ -362,6 +392,9 @@
     {
         "id": "11", 
         "name": "Dotgu", 
+        "fullName": "Lydia Culhane",
+        "sold": "109",
+        "changes": "1.21%",
         "coverMobile": "/images/creators-profile-images/mobile/cover.jpg", 
         "coverDesktop": "/images/creators-profile-images/desktop/cover.jpg",  
         "userImage": "/images/creators/Avatar11.png", 
@@ -398,9 +431,207 @@
     {
         "id": "12", 
         "name": "Ghiblier", 
+        "fullName": "Jocelyn Westervelt",
+        "sold": "199",
+        "changes": "1.81%",
         "coverMobile": "/images/creators-profile-images/mobile/cover.jpg", 
         "coverDesktop": "/images/creators-profile-images/desktop/cover.jpg",  
         "userImage": "/images/creators/Avatar12.png", 
+        "ctaCode": "0xc0E3...B79C", 
+        "sales": "34.53",
+        "stats": [
+            {"id": 1, "desc": "volume", "num": "250k+"},
+            {"id": 2, "desc": "NFTs Sold", "num": "50+"}, 
+            {"id": 3, "desc": "Followers", "num": "3000k+"}
+        ], 
+        "bio": "The internet's friendliest designer kid.", 
+        "socials": [
+            {"id": 1, "link": "/web/Ghiblier", "icon": "/images/soc-icons/GlobeLogo.svg"},
+            {"id": 2, "link": "/discord/Ghiblier", "icon": "/images/soc-icons/DiscordLogo.svg"},
+            {"id": 3, "link": "/youtube/Ghiblier", "icon": "/images/soc-icons/YoutubeLogo.svg"},
+            {"id": 4, "link": "/instagram/Ghiblier", "icon": "/images/soc-icons/InstagramLogo.svg"},
+            {"id": 5, "link": "/twitter/Ghiblier", "icon": "/images/soc-icons/TwitterLogo.svg"}
+        ], 
+        "created": 302, 
+        "owned": 67, 
+        "collection": 4, 
+        "card": [
+            {"id": 1, "cardCover": "/images/nft-card-images/galaxy.png", "cardDesc": "Distant Galaxy", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH"},
+            {"id": 2, "cardCover": "/images/nft-card-images/edena.png", "cardDesc": "Life On Edena", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 3, "cardCover": "/images/nft-card-images/astro.png", "cardDesc": "AstroFiction", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 4, "cardCover": "/images/nft-card-images/criptoCity.png", "cardDesc": "CryptoCity", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 5, "cardCover": "/images/nft-card-images/dog.png", "cardDesc": "ColorfulDog 0524", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 6, "cardCover": "/images/nft-card-images/tales.png", "cardDesc": "Space Tales", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 7, "cardCover": "/images/nft-card-images/girl.png", "cardDesc": "Cherry Blossom Girl 037", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 8, "cardCover": "/images/nft-card-images/robot.png", "cardDesc": "Dancing Robots 0987", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 9, "cardCover": "/images/nft-card-images/monkey.png", "cardDesc": "IceCream Ape", "cardBid": "0.83 wETH", "cardPrice": "1.83 ETH" }
+        ]
+    },
+    {
+        "id": "13", 
+        "name": "nickname", 
+        "fullName": "Angel Lubin",
+        "sold": "197",
+        "changes": "1.86%",
+        "coverMobile": "/images/creators-profile-images/mobile/cover.jpg", 
+        "coverDesktop": "/images/creators-profile-images/desktop/cover.jpg",  
+        "userImage": "/images/creators/Avatar13.png", 
+        "ctaCode": "0xc0E3...B79C", 
+        "sales": "34.53",
+        "stats": [
+            {"id": 1, "desc": "volume", "num": "250k+"},
+            {"id": 2, "desc": "NFTs Sold", "num": "50+"}, 
+            {"id": 3, "desc": "Followers", "num": "3000k+"}
+        ], 
+        "bio": "The internet's friendliest designer kid.", 
+        "socials": [
+            {"id": 1, "link": "/web/Ghiblier", "icon": "/images/soc-icons/GlobeLogo.svg"},
+            {"id": 2, "link": "/discord/Ghiblier", "icon": "/images/soc-icons/DiscordLogo.svg"},
+            {"id": 3, "link": "/youtube/Ghiblier", "icon": "/images/soc-icons/YoutubeLogo.svg"},
+            {"id": 4, "link": "/instagram/Ghiblier", "icon": "/images/soc-icons/InstagramLogo.svg"},
+            {"id": 5, "link": "/twitter/Ghiblier", "icon": "/images/soc-icons/TwitterLogo.svg"}
+        ], 
+        "created": 302, 
+        "owned": 67, 
+        "collection": 4, 
+        "card": [
+            {"id": 1, "cardCover": "/images/nft-card-images/galaxy.png", "cardDesc": "Distant Galaxy", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH"},
+            {"id": 2, "cardCover": "/images/nft-card-images/edena.png", "cardDesc": "Life On Edena", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 3, "cardCover": "/images/nft-card-images/astro.png", "cardDesc": "AstroFiction", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 4, "cardCover": "/images/nft-card-images/criptoCity.png", "cardDesc": "CryptoCity", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 5, "cardCover": "/images/nft-card-images/dog.png", "cardDesc": "ColorfulDog 0524", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 6, "cardCover": "/images/nft-card-images/tales.png", "cardDesc": "Space Tales", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 7, "cardCover": "/images/nft-card-images/girl.png", "cardDesc": "Cherry Blossom Girl 037", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 8, "cardCover": "/images/nft-card-images/robot.png", "cardDesc": "Dancing Robots 0987", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 9, "cardCover": "/images/nft-card-images/monkey.png", "cardDesc": "IceCream Ape", "cardBid": "0.83 wETH", "cardPrice": "1.83 ETH" }
+        ]
+    },
+    {
+        "id": "14", 
+        "name": "nickname", 
+        "fullName": "Allison Torff",
+        "sold": "187",
+        "changes": "1.66%",
+        "coverMobile": "/images/creators-profile-images/mobile/cover.jpg", 
+        "coverDesktop": "/images/creators-profile-images/desktop/cover.jpg",  
+        "userImage": "/images/creators/Avatar14.png", 
+        "ctaCode": "0xc0E3...B79C", 
+        "sales": "34.53",
+        "stats": [
+            {"id": 1, "desc": "volume", "num": "250k+"},
+            {"id": 2, "desc": "NFTs Sold", "num": "50+"}, 
+            {"id": 3, "desc": "Followers", "num": "3000k+"}
+        ], 
+        "bio": "The internet's friendliest designer kid.", 
+        "socials": [
+            {"id": 1, "link": "/web/Ghiblier", "icon": "/images/soc-icons/GlobeLogo.svg"},
+            {"id": 2, "link": "/discord/Ghiblier", "icon": "/images/soc-icons/DiscordLogo.svg"},
+            {"id": 3, "link": "/youtube/Ghiblier", "icon": "/images/soc-icons/YoutubeLogo.svg"},
+            {"id": 4, "link": "/instagram/Ghiblier", "icon": "/images/soc-icons/InstagramLogo.svg"},
+            {"id": 5, "link": "/twitter/Ghiblier", "icon": "/images/soc-icons/TwitterLogo.svg"}
+        ], 
+        "created": 302, 
+        "owned": 67, 
+        "collection": 4, 
+        "card": [
+            {"id": 1, "cardCover": "/images/nft-card-images/galaxy.png", "cardDesc": "Distant Galaxy", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH"},
+            {"id": 2, "cardCover": "/images/nft-card-images/edena.png", "cardDesc": "Life On Edena", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 3, "cardCover": "/images/nft-card-images/astro.png", "cardDesc": "AstroFiction", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 4, "cardCover": "/images/nft-card-images/criptoCity.png", "cardDesc": "CryptoCity", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 5, "cardCover": "/images/nft-card-images/dog.png", "cardDesc": "ColorfulDog 0524", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 6, "cardCover": "/images/nft-card-images/tales.png", "cardDesc": "Space Tales", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 7, "cardCover": "/images/nft-card-images/girl.png", "cardDesc": "Cherry Blossom Girl 037", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 8, "cardCover": "/images/nft-card-images/robot.png", "cardDesc": "Dancing Robots 0987", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 9, "cardCover": "/images/nft-card-images/monkey.png", "cardDesc": "IceCream Ape", "cardBid": "0.83 wETH", "cardPrice": "1.83 ETH" }
+        ]
+    },
+    {
+        "id": "15", 
+        "name": "nickname", 
+        "fullName": "Davis Workman",
+        "sold": "387",
+        "changes": "2.66%",
+        "coverMobile": "/images/creators-profile-images/mobile/cover.jpg", 
+        "coverDesktop": "/images/creators-profile-images/desktop/cover.jpg",  
+        "userImage": "/images/creators/Avatar15.png", 
+        "ctaCode": "0xc0E3...B79C", 
+        "sales": "34.53",
+        "stats": [
+            {"id": 1, "desc": "volume", "num": "250k+"},
+            {"id": 2, "desc": "NFTs Sold", "num": "50+"}, 
+            {"id": 3, "desc": "Followers", "num": "3000k+"}
+        ], 
+        "bio": "The internet's friendliest designer kid.", 
+        "socials": [
+            {"id": 1, "link": "/web/Ghiblier", "icon": "/images/soc-icons/GlobeLogo.svg"},
+            {"id": 2, "link": "/discord/Ghiblier", "icon": "/images/soc-icons/DiscordLogo.svg"},
+            {"id": 3, "link": "/youtube/Ghiblier", "icon": "/images/soc-icons/YoutubeLogo.svg"},
+            {"id": 4, "link": "/instagram/Ghiblier", "icon": "/images/soc-icons/InstagramLogo.svg"},
+            {"id": 5, "link": "/twitter/Ghiblier", "icon": "/images/soc-icons/TwitterLogo.svg"}
+        ], 
+        "created": 302, 
+        "owned": 67, 
+        "collection": 4, 
+        "card": [
+            {"id": 1, "cardCover": "/images/nft-card-images/galaxy.png", "cardDesc": "Distant Galaxy", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH"},
+            {"id": 2, "cardCover": "/images/nft-card-images/edena.png", "cardDesc": "Life On Edena", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 3, "cardCover": "/images/nft-card-images/astro.png", "cardDesc": "AstroFiction", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 4, "cardCover": "/images/nft-card-images/criptoCity.png", "cardDesc": "CryptoCity", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 5, "cardCover": "/images/nft-card-images/dog.png", "cardDesc": "ColorfulDog 0524", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 6, "cardCover": "/images/nft-card-images/tales.png", "cardDesc": "Space Tales", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 7, "cardCover": "/images/nft-card-images/girl.png", "cardDesc": "Cherry Blossom Girl 037", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 8, "cardCover": "/images/nft-card-images/robot.png", "cardDesc": "Dancing Robots 0987", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 9, "cardCover": "/images/nft-card-images/monkey.png", "cardDesc": "IceCream Ape", "cardBid": "0.83 wETH", "cardPrice": "1.83 ETH" }
+        ]
+    },
+    {
+        "id": "16", 
+        "name": "nickname", 
+        "fullName": "Lindsey Lipshutz",
+        "sold": "307",
+        "changes": "2.26%",
+        "coverMobile": "/images/creators-profile-images/mobile/cover.jpg", 
+        "coverDesktop": "/images/creators-profile-images/desktop/cover.jpg",  
+        "userImage": "/images/creators/Avatar16.png", 
+        "ctaCode": "0xc0E3...B79C", 
+        "sales": "34.53",
+        "stats": [
+            {"id": 1, "desc": "volume", "num": "250k+"},
+            {"id": 2, "desc": "NFTs Sold", "num": "50+"}, 
+            {"id": 3, "desc": "Followers", "num": "3000k+"}
+        ], 
+        "bio": "The internet's friendliest designer kid.", 
+        "socials": [
+            {"id": 1, "link": "/web/Ghiblier", "icon": "/images/soc-icons/GlobeLogo.svg"},
+            {"id": 2, "link": "/discord/Ghiblier", "icon": "/images/soc-icons/DiscordLogo.svg"},
+            {"id": 3, "link": "/youtube/Ghiblier", "icon": "/images/soc-icons/YoutubeLogo.svg"},
+            {"id": 4, "link": "/instagram/Ghiblier", "icon": "/images/soc-icons/InstagramLogo.svg"},
+            {"id": 5, "link": "/twitter/Ghiblier", "icon": "/images/soc-icons/TwitterLogo.svg"}
+        ], 
+        "created": 302, 
+        "owned": 67, 
+        "collection": 4, 
+        "card": [
+            {"id": 1, "cardCover": "/images/nft-card-images/galaxy.png", "cardDesc": "Distant Galaxy", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH"},
+            {"id": 2, "cardCover": "/images/nft-card-images/edena.png", "cardDesc": "Life On Edena", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 3, "cardCover": "/images/nft-card-images/astro.png", "cardDesc": "AstroFiction", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 4, "cardCover": "/images/nft-card-images/criptoCity.png", "cardDesc": "CryptoCity", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 5, "cardCover": "/images/nft-card-images/dog.png", "cardDesc": "ColorfulDog 0524", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 6, "cardCover": "/images/nft-card-images/tales.png", "cardDesc": "Space Tales", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 7, "cardCover": "/images/nft-card-images/girl.png", "cardDesc": "Cherry Blossom Girl 037", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 8, "cardCover": "/images/nft-card-images/robot.png", "cardDesc": "Dancing Robots 0987", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 9, "cardCover": "/images/nft-card-images/monkey.png", "cardDesc": "IceCream Ape", "cardBid": "0.83 wETH", "cardPrice": "1.83 ETH" }
+        ]
+    },
+    {
+        "id": "17", 
+        "name": "nickname", 
+        "fullName": "Rayna Bator",
+        "sold": "207",
+        "changes": "2.06%",
+        "coverMobile": "/images/creators-profile-images/mobile/cover.jpg", 
+        "coverDesktop": "/images/creators-profile-images/desktop/cover.jpg",  
+        "userImage": "/images/creators/Avatar17.png", 
         "ctaCode": "0xc0E3...B79C", 
         "sales": "34.53",
         "stats": [
