@@ -35,7 +35,10 @@
             {"id": 6, "cardCover": "/images/nft-card-images/tales.png", "cardDesc": "Space Tales", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
             {"id": 7, "cardCover": "/images/nft-card-images/girl.png", "cardDesc": "Cherry Blossom Girl 037", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
             {"id": 8, "cardCover": "/images/nft-card-images/robot.png", "cardDesc": "Dancing Robots 0987", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
-            {"id": 9, "cardCover": "/images/nft-card-images/monkey.png", "cardDesc": "IceCream Ape", "cardBid": "0.83 wETH", "cardPrice": "1.83 ETH" }
+            {"id": 9, "cardCover": "/images/nft-card-images/monkey.png", "cardDesc": "IceCream Ape", "cardBid": "0.83 wETH", "cardPrice": "1.83 ETH" },
+            {"id": 10, "cardCover": "/images/nft-card-images/girl.png", "cardDesc": "Cherry Blossom Girl 037", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 11, "cardCover": "/images/nft-card-images/robot.png", "cardDesc": "Dancing Robots 0987", "cardBid": "0.33 wETH", "cardPrice": "1.63 ETH" },
+            {"id": 12, "cardCover": "/images/nft-card-images/monkey.png", "cardDesc": "IceCream Ape", "cardBid": "0.83 wETH", "cardPrice": "1.83 ETH" }
         ]
     },
     {
