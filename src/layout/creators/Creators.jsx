@@ -17,7 +17,7 @@ const Creators = () => {
                 path='rankings' />
 
                 <div className="row py-5 gy-4 d-none d-sm-flex">
-                    {creatorsData.map(creator => (
+                    {creatorsData.slice(0,12).map(creator => (
                         <div className="col-sm-6 col-md-4 col-xl-3" key={creator.id}>
                             <CreatorsCardDesktop 
                                 id={creator.id} 

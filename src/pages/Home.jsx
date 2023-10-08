@@ -15,8 +15,8 @@ const Home = () => {
       <Collection />
       <Creators />
       <Categories />
-      <Nfts />   
-      <Auction /> 
+      <Nfts />  
+      <Auction />
       <HowItWorks />
       <Subscribe />
     </div>

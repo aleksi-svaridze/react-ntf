@@ -22,12 +22,6 @@ export const PrimaryHeading = ({heading, desc, btnText, btnIcon, path}) => {
 
 export const SecondaryHeading = ({content, customStyles}) => {
     return(
-        <h1 className={`text-white text-capitalize secondary-heading fw-semibold m-0 ${customStyles}`}>{content}</h1>
-    )
-}
-
-export const FourthiaryHeading = ({content, customStyles}) => {
-    return(
         <h1 className={`text-white text-capitalize fw-semibold m-0 ${customStyles}`}>{content}</h1>
     )
 }

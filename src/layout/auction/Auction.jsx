@@ -25,7 +25,7 @@ const Auction = () => {
                             <div>
                                 <h2 className="auction-container--title text-white text-capitalize fw-semibold mb-4 pb-2 pe-5 pe-sm-0">Magic Mashrooms</h2>
                                 <Button 
-                                    path='see-nfts' 
+                                    path='nfts' 
                                     icon={buttonIcon} 
                                     content='see NFTS' 
                                     btnStyle='btn_custom d-lg-inline-flex auction-btn bg-white text-black-primary d-none' 
@@ -36,7 +36,7 @@ const Auction = () => {
                             <div className="d-lg-flex justify-content-lg-end">
                                 <Timer />
                                 <Button 
-                                    path='see-nfts' 
+                                    path='nfts' 
                                     icon={buttonIcon} 
                                     content='see NFTS' 
                                     btnStyle='btn_custom d-lg-none auction-btn bg-white text-black-primary d-flex' 

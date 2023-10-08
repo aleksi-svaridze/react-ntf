@@ -2,7 +2,7 @@
 
 
 
-const Timer = () => {
+const Timer = ({timerBtn}) => {
     return(
         <div className="timer font-spacemono text-white">
             <div className="timer-inner--container">
@@ -24,6 +24,7 @@ const Timer = () => {
                     </div>
                 </div>
             </div>
+            {timerBtn && 'hello'}
         </div>
     )
 }

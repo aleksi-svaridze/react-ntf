@@ -1,4 +1,4 @@
-import { Desc, FourthiaryHeading } from "../components/headings/Headings";
+import { Desc, SecondaryHeading } from "../components/headings/Headings";
 import { useState } from "react";
 import { useWindowSize } from "usehooks-ts";
 import { TableHeader } from "../components/tables/Tables";
@@ -16,7 +16,7 @@ const Ranking = () => {
     return(
         <div className="container px-2">
             <div className="layout-container my-1 my-lg-5 py-4">
-                <FourthiaryHeading 
+                <SecondaryHeading 
                     content='Top Creators' 
                     customStyles='fourthiary-heading' 
                 />

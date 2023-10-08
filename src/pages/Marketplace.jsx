@@ -1,4 +1,4 @@
-import { Desc, FourthiaryHeading } from "../components/headings/Headings";
+import { Desc, SecondaryHeading } from "../components/headings/Headings";
 import SearchForm from "../components/search-form/SearchForm";
 import { useState } from "react";
 
@@ -8,10 +8,10 @@ import ntfsCards from '../data/creators/creators.json'
 
 
 const Marketplace = () => {
-    const [state, setState] = useState(1);
+    const [tabIndex, setTabIndex ]= useState(1);
 
     const handleState = (index) => {
-        setState(index)
+        setTabIndex(index)
     }
 
     let creator = ntfsCards[0];
@@ -20,7 +20,7 @@ const Marketplace = () => {
         <>        
             <div className='container'>
                 <div className="layout-container my-3 my-lg-5 py-4">
-                    <FourthiaryHeading
+                    <SecondaryHeading
                         content='Browse Marketplace' 
                         customStyles='fourthiary-heading' 
                     />
@@ -46,24 +46,24 @@ const Marketplace = () => {
                         <div className="col-6">
                             <div 
                                 onClick={() => handleState(1)} 
-                                className={`text-center text-capitalize fw-semibold d-flex align-items-center justify-content-center column-gap-3 ${state === 1 ? 'tabs--second-title tabs--title-active' : 'tabs--second-title'}`}>NFTs<span className={`badge font-spacemono d-none d-md-block fw-normal ${state === 1 ? 'badge badge-active' : 'badge'}`}>{creator.card.length}</span>
+                                className={`text-center text-capitalize fw-semibold d-flex align-items-center justify-content-center column-gap-3 ${tabIndex === 1 ? 'tabs--second-title tabs--title-active' : 'tabs--second-title'}`}>NFTs<span className={`badge font-spacemono d-none d-md-block fw-normal ${tabIndex === 1 ? 'badge badge-active' : 'badge'}`}>{creator.card.length}</span>
                             </div>
                         </div>
                         <div className="col-6">
                             <div 
                                 onClick={() => handleState(2)} 
-                                className={`text-center text-capitalize fw-semibold d-flex align-items-center justify-content-center column-gap-3 ${state === 2 ? 'tabs--second-title tabs--title-active' : 'tabs--second-title'}`}>Collections<span className={`badge font-spacemono d-none d-md-block fw-normal ${state === 2 ? 'badge badge-active' : 'badge'}`}>{creator.card.slice(5,9).length}</span>
+                                className={`text-center text-capitalize fw-semibold d-flex align-items-center justify-content-center column-gap-3 ${tabIndex === 2 ? 'tabs--second-title tabs--title-active' : 'tabs--second-title'}`}>Collections<span className={`badge font-spacemono d-none d-md-block fw-normal ${tabIndex === 2 ? 'badge badge-active' : 'badge'}`}>{creator.card.slice(5,9).length}</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="bg-black-secondary py-4">
+            <div className="bg-black-secondary py-4 border-bottom border-2 border-black-primary">
                 <div className="container py-3 py-lg-4">
                     <div className="layout-container py-lg-3">
                         <div className="row g-4">
-                            { state === 1 ? creator.card.map(item => (
+                            { tabIndex === 1 ? creator.card.map(item => (
                                 <div className="col-12 col-md-6 col-lg-4">
                                     <NftsCard 
                                         id={item.id} 
