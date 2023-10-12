@@ -27,38 +27,38 @@ const Ranking = () => {
             </div>
 
             <div className="container">
-            <div className="layout-container">
-                <div className="row">
-                    <div className="col-3">
-                        <div 
-                            onClick={() => toggleTabContent(1)} 
-                            className={`text-center text-capitalize fw-semibold d-flex align-items-center justify-content-center ${toggleTabsState === 1 ? 'tabs--title m-0 py-3 tabs--title-active' : 'tabs--title m-0 py-3'}`}>
-                                {width >= 768 ? 'Today' : '1d'}
+                <div className="layout-container">
+                    <div className="row">
+                        <div className="col-3">
+                            <div 
+                                onClick={() => toggleTabContent(1)} 
+                                className={`text-center text-capitalize fw-semibold d-flex align-items-center justify-content-center ${toggleTabsState === 1 ? 'tabs--title m-0 py-3 tabs--title-active' : 'tabs--title m-0 py-3'}`}>
+                                    {width >= 768 ? 'Today' : '1d'}
+                            </div>
                         </div>
-                    </div>
-                    <div className="col-3">
-                        <div 
-                            onClick={() => toggleTabContent(2)} 
-                            className={`text-center text-capitalize fw-semibold d-flex align-items-center justify-content-center ${toggleTabsState === 2 ? 'tabs--title  m-0 py-3 tabs--title-active' : 'tabs--title  m-0 py-3'}`}>
-                                {width >= 768 ? 'This Week' : '7d'}
+                        <div className="col-3">
+                            <div 
+                                onClick={() => toggleTabContent(2)} 
+                                className={`text-center text-capitalize fw-semibold d-flex align-items-center justify-content-center ${toggleTabsState === 2 ? 'tabs--title  m-0 py-3 tabs--title-active' : 'tabs--title  m-0 py-3'}`}>
+                                    {width >= 768 ? 'This Week' : '7d'}
+                            </div>
                         </div>
-                    </div>
-                    <div className="col-3">
-                        <div 
-                            onClick={() => toggleTabContent(3)} 
-                            className={`text-center text-capitalize fw-semibold d-flex align-items-center justify-content-center ${toggleTabsState === 3 ? 'tabs--title  m-0 py-3 tabs--title-active' : 'tabs--title  m-0 py-3'}`}>
-                                {width >= 768 ? 'This Month' : '30d'}
+                        <div className="col-3">
+                            <div 
+                                onClick={() => toggleTabContent(3)} 
+                                className={`text-center text-capitalize fw-semibold d-flex align-items-center justify-content-center ${toggleTabsState === 3 ? 'tabs--title  m-0 py-3 tabs--title-active' : 'tabs--title  m-0 py-3'}`}>
+                                    {width >= 768 ? 'This Month' : '30d'}
+                            </div>
                         </div>
-                    </div>
-                    <div className="col-3">
-                        <div 
-                            onClick={() => toggleTabContent(4)} 
-                            className={`text-center text-capitalize fw-semibold d-flex align-items-center justify-content-center ${toggleTabsState === 4 ? 'tabs--title  m-0 py-3 tabs--title-active' : 'tabs--title  m-0 py-3'}`}>
-                                All Time
+                        <div className="col-3">
+                            <div 
+                                onClick={() => toggleTabContent(4)} 
+                                className={`text-center text-capitalize fw-semibold d-flex align-items-center justify-content-center ${toggleTabsState === 4 ? 'tabs--title  m-0 py-3 tabs--title-active' : 'tabs--title  m-0 py-3'}`}>
+                                    All Time
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
             <TableHeader />
 

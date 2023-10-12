@@ -9,12 +9,14 @@
 
     font-size: 16px;
     font-weight: 600;
-
-    text-decoration: none;
  
     &--purple {
         background: #A259FF;
         color: #fff; 
+ 
+        &-width {
+            max-width: 260px; 
+        }
     } 
 
     &--black {

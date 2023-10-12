@@ -1,10 +1,10 @@
+import Button from '../buttons/Buttons'
 
 
 
-
-const Timer = ({timerBtn}) => {
+const Timer = ({ btnContent, btnStyle, timerStyle}) => {
     return(
-        <div className="timer font-spacemono text-white">
+        <div className={`timer font-spacemono text-white ${timerStyle}`}>
             <div className="timer-inner--container">
                 <p className="timer-type--title">Auction ends in:</p>
                 <div className="timer-numbers--wrapper">
@@ -24,7 +24,14 @@ const Timer = ({timerBtn}) => {
                     </div>
                 </div>
             </div>
-            {timerBtn && 'hello'}
+
+            {btnContent && <Button 
+                            path='/path_to_bid' 
+                            content={btnContent} 
+                            btnStyle={btnStyle} 
+                        />
+            }
+
         </div>
     )
 }
