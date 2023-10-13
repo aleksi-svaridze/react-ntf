@@ -86,8 +86,10 @@ const NftsPage= () => {
                                 <h3 className={`fourthiary-desc font-spacemono text-black-tertiary mb-2 ${width >= 768 ? 'fw-semibold' : 'fw-normal'}`}>Tags</h3>
                                 <div className='d-flex flex-column flex-lg-row align-items-lg-center align-items-start gap-3'>
                                     {
-                                        result.tags.map(tag => (
-                                            <Tag content={tag} />
+                                        result.tags.map((tag, index) => (
+                                            <div key={index + 1}>
+                                                <Tag content={tag} />
+                                            </div>
                                         ))
                                     }
                                 </div>

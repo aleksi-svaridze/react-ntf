@@ -100,7 +100,7 @@ const Ranking = () => {
 
                     {   toggleTabsState === 2 && 
                             CreatorsData.slice(4, 9).map((creator, index) => (
-                            <div className="row rounded-20 text-capitalize fw-normal bg-black-secondary top_creator" key={creator.id}>
+                                <Link to={`${creator.name}`} className="text-decoration-none row rounded-20 text-capitalize fw-normal bg-black-secondary top_creator" key={creator.id}>
                                 <div className="col-9 col-sm-8 col-md-6 px-0">
                                     <div className="d-flex align-items-center font-spacemono">
                                         <div className="top_creator--number text-black-tertiary fw-normal d-md-flex align-items-center justify-content-center">
@@ -112,7 +112,7 @@ const Ranking = () => {
                                         <div className="top_creator--name text-white font-worksans">
                                         {creator.fullName}
                                         </div>
-                                </div>
+                                    </div>
                                 </div>
                                 <div className="col-2 col-md-3 d-none d-md-flex align-items-center col-lg-2">
                                     <span className="top_creator--stats font-spacemono text-green fw-normal">{creator.changes}</span>
@@ -123,13 +123,13 @@ const Ranking = () => {
                                 <div className="ps-0 col-3 col-sm-4 col-md-3 col-lg-2 font-spacemono d-flex align-items-center">
                                     <span className="top_creator--stats font-spacemono text-white fw-normal">{creator.sales} ETH</span>
                                 </div>
-                            </div>
+                            </Link>
                         ))
                     }
 
                     {   toggleTabsState === 3 && 
                             CreatorsData.slice(6, 10).map((creator, index) => (
-                            <div className="row rounded-20 text-capitalize fw-normal bg-black-secondary top_creator" key={creator.id}>
+                                <Link to={`${creator.name}`} className="text-decoration-none row rounded-20 text-capitalize fw-normal bg-black-secondary top_creator" key={creator.id}>
                                 <div className="col-9 col-sm-8 col-md-6 px-0">
                                     <div className="d-flex align-items-center font-spacemono">
                                         <div className="top_creator--number text-black-tertiary fw-normal d-md-flex align-items-center justify-content-center">
@@ -152,13 +152,13 @@ const Ranking = () => {
                                 <div className="ps-0 col-3 col-sm-4 col-md-3 col-lg-2 font-spacemono d-flex align-items-center">
                                     <span className="top_creator--stats font-spacemono text-white fw-normal">{creator.sales} ETH</span>
                                 </div>
-                            </div>
+                            </Link>
                         ))
                     }
 
                     {   toggleTabsState === 4 && 
                             CreatorsData.slice(12, 17).map((creator, index) => (
-                            <div className="row rounded-20 text-capitalize fw-normal bg-black-secondary top_creator" key={creator.id}>
+                                <Link to={`${creator.name}`} className="text-decoration-none row rounded-20 text-capitalize fw-normal bg-black-secondary top_creator" key={creator.id}>
                                 <div className="col-9 col-sm-8 col-md-6 px-0">
                                     <div className="d-flex align-items-center font-spacemono">
                                         <div className="top_creator--number text-black-tertiary fw-normal d-md-flex align-items-center justify-content-center">
@@ -181,7 +181,7 @@ const Ranking = () => {
                                 <div className="ps-0 col-3 col-sm-4 col-md-3 col-lg-2 font-spacemono d-flex align-items-center">
                                     <span className="top_creator--stats font-spacemono text-white fw-normal">{creator.sales} ETH</span>
                                 </div>
-                            </div>
+                            </Link>
                         ))
                     }
                 </div>
