@@ -2,6 +2,7 @@ import { Desc, SecondaryHeading } from "../components/headings/Headings";
 import { useState } from "react";
 import { useWindowSize } from "usehooks-ts";
 import { TableHeader } from "../components/tables/Tables";
+import { Link } from "react-router-dom";
 
 import CreatorsData from '../data/creators/creators.json';
 
@@ -60,125 +61,130 @@ const Ranking = () => {
                     </div>
                 </div>
 
-            <TableHeader />
+                <TableHeader />
 
-            <div className="layout-container py-0">
-                {   toggleTabsState === 1 &&
-                    CreatorsData.map(creator => (
-                        <div className="row rounded-20 text-capitalize fw-normal bg-black-secondary top_creator" key={creator.id}>
-                            <div className="col-9 col-sm-8 col-md-6 px-0">
-                                <div className="d-flex align-items-center font-spacemono">
-                                    <div className="top_creator--number text-black-tertiary fw-normal d-md-flex align-items-center justify-content-center">
-                                        {creator.id}
-                                    </div>
+                <div className="layout-container py-0">
+                    {   toggleTabsState === 1 &&
+                        CreatorsData.map(creator => (
+                            <Link to={`${creator.name}`} className="text-decoration-none row rounded-20 text-capitalize fw-normal bg-black-secondary top_creator" key={creator.id}>
+                                
+                                <div className="col-9 col-sm-8 col-md-6 px-0">
+                                    <div className="d-flex align-items-center font-spacemono">
+                                        <div className="top_creator--number text-black-tertiary fw-normal d-md-flex align-items-center justify-content-center">
+                                            {creator.id}
+                                        </div>
+                                            
+                                        <img src={creator.userImage} alt={creator.fullName} className="top_creator--image" />
                                         
-                                    <img src={creator.userImage} alt={creator.fullName} className="top_creator--image" />
-                                    
-                                    <div className="top_creator--name text-white font-worksans">
-                                    {creator.fullName}
+                                        <div className="top_creator--name text-white font-worksans">
+                                        {creator.fullName}
+                                        </div>
                                     </div>
-                            </div>
-                            </div>
-                            <div className="col-2 col-md-3 d-none d-md-flex align-items-center col-lg-2">
-                                <span className="top_creator--stats font-spacemono text-green fw-normal">{creator.changes}</span>
-                            </div>
-                            <div className="col-2 d-none d-lg-flex align-items-center font-spacemono">
-                            <span className="top_creator--stats font-spacemono text-white fw-normal">{creator.sold}</span>
-                            </div>
-                            <div className="ps-0 col-3 col-sm-4 col-md-3 col-lg-2 font-spacemono d-flex align-items-center">
-                                <span className="top_creator--stats font-spacemono text-white fw-normal">{creator.sales} ETH</span>
-                            </div>
-                        </div>
-                    ))
-                }
+                                </div>
 
-                {   toggleTabsState === 2 && 
-                        CreatorsData.slice(4, 9).map((creator, index) => (
-                        <div className="row rounded-20 text-capitalize fw-normal bg-black-secondary top_creator" key={creator.id}>
-                            <div className="col-9 col-sm-8 col-md-6 px-0">
-                                <div className="d-flex align-items-center font-spacemono">
-                                    <div className="top_creator--number text-black-tertiary fw-normal d-md-flex align-items-center justify-content-center">
-                                        {index + 1}
-                                    </div>
-                                        
-                                    <img src={creator.userImage} alt={creator.fullName} className="top_creator--image" />
-                                    
-                                    <div className="top_creator--name text-white font-worksans">
-                                    {creator.fullName}
-                                    </div>
-                            </div>
-                            </div>
-                            <div className="col-2 col-md-3 d-none d-md-flex align-items-center col-lg-2">
-                                <span className="top_creator--stats font-spacemono text-green fw-normal">{creator.changes}</span>
-                            </div>
-                            <div className="col-2 d-none d-lg-flex align-items-center font-spacemono">
-                            <span className="top_creator--stats font-spacemono text-white fw-normal">{creator.sold}</span>
-                            </div>
-                            <div className="ps-0 col-3 col-sm-4 col-md-3 col-lg-2 font-spacemono d-flex align-items-center">
-                                <span className="top_creator--stats font-spacemono text-white fw-normal">{creator.sales} ETH</span>
-                            </div>
-                        </div>
-                    ))
-                }
+                                <div className="col-2 col-md-3 d-none d-md-flex align-items-center col-lg-2">
+                                    <span className="top_creator--stats font-spacemono text-green fw-normal">{creator.changes}</span>
+                                </div>
 
-                {   toggleTabsState === 3 && 
-                        CreatorsData.slice(6, 10).map((creator, index) => (
-                        <div className="row rounded-20 text-capitalize fw-normal bg-black-secondary top_creator" key={creator.id}>
-                            <div className="col-9 col-sm-8 col-md-6 px-0">
-                                <div className="d-flex align-items-center font-spacemono">
-                                    <div className="top_creator--number text-black-tertiary fw-normal d-md-flex align-items-center justify-content-center">
-                                        {index + 1}
-                                    </div>
-                                        
-                                    <img src={creator.userImage} alt={creator.fullName} className="top_creator--image" />
-                                    
-                                    <div className="top_creator--name text-white font-worksans">
-                                    {creator.fullName}
-                                    </div>
-                            </div>
-                            </div>
-                            <div className="col-2 col-md-3 d-none d-md-flex align-items-center col-lg-2">
-                                <span className="top_creator--stats font-spacemono text-green fw-normal">{creator.changes}</span>
-                            </div>
-                            <div className="col-2 d-none d-lg-flex align-items-center font-spacemono">
-                            <span className="top_creator--stats font-spacemono text-white fw-normal">{creator.sold}</span>
-                            </div>
-                            <div className="ps-0 col-3 col-sm-4 col-md-3 col-lg-2 font-spacemono d-flex align-items-center">
-                                <span className="top_creator--stats font-spacemono text-white fw-normal">{creator.sales} ETH</span>
-                            </div>
-                        </div>
-                    ))
-                }
+                                <div className="col-2 d-none d-lg-flex align-items-center font-spacemono">
+                                    <span className="top_creator--stats font-spacemono text-white fw-normal">{creator.sold}</span>
+                                </div>
 
-                {   toggleTabsState === 4 && 
-                        CreatorsData.slice(12, 17).map((creator, index) => (
-                        <div className="row rounded-20 text-capitalize fw-normal bg-black-secondary top_creator" key={creator.id}>
-                            <div className="col-9 col-sm-8 col-md-6 px-0">
-                                <div className="d-flex align-items-center font-spacemono">
-                                    <div className="top_creator--number text-black-tertiary fw-normal d-md-flex align-items-center justify-content-center">
-                                        {index + 1}
-                                    </div>
+                                <div className="ps-0 col-3 col-sm-4 col-md-3 col-lg-2 font-spacemono d-flex align-items-center">
+                                    <span className="top_creator--stats font-spacemono text-white fw-normal">{creator.sales} ETH</span>
+                                </div>
+                                
+                            </Link>
+                        ))
+                    }
+
+                    {   toggleTabsState === 2 && 
+                            CreatorsData.slice(4, 9).map((creator, index) => (
+                            <div className="row rounded-20 text-capitalize fw-normal bg-black-secondary top_creator" key={creator.id}>
+                                <div className="col-9 col-sm-8 col-md-6 px-0">
+                                    <div className="d-flex align-items-center font-spacemono">
+                                        <div className="top_creator--number text-black-tertiary fw-normal d-md-flex align-items-center justify-content-center">
+                                            {index + 1}
+                                        </div>
+                                            
+                                        <img src={creator.userImage} alt={creator.fullName} className="top_creator--image" />
                                         
-                                    <img src={creator.userImage} alt={creator.fullName} className="top_creator--image" />
-                                    
-                                    <div className="top_creator--name text-white font-worksans">
-                                    {creator.fullName}
-                                    </div>
+                                        <div className="top_creator--name text-white font-worksans">
+                                        {creator.fullName}
+                                        </div>
+                                </div>
+                                </div>
+                                <div className="col-2 col-md-3 d-none d-md-flex align-items-center col-lg-2">
+                                    <span className="top_creator--stats font-spacemono text-green fw-normal">{creator.changes}</span>
+                                </div>
+                                <div className="col-2 d-none d-lg-flex align-items-center font-spacemono">
+                                <span className="top_creator--stats font-spacemono text-white fw-normal">{creator.sold}</span>
+                                </div>
+                                <div className="ps-0 col-3 col-sm-4 col-md-3 col-lg-2 font-spacemono d-flex align-items-center">
+                                    <span className="top_creator--stats font-spacemono text-white fw-normal">{creator.sales} ETH</span>
+                                </div>
                             </div>
+                        ))
+                    }
+
+                    {   toggleTabsState === 3 && 
+                            CreatorsData.slice(6, 10).map((creator, index) => (
+                            <div className="row rounded-20 text-capitalize fw-normal bg-black-secondary top_creator" key={creator.id}>
+                                <div className="col-9 col-sm-8 col-md-6 px-0">
+                                    <div className="d-flex align-items-center font-spacemono">
+                                        <div className="top_creator--number text-black-tertiary fw-normal d-md-flex align-items-center justify-content-center">
+                                            {index + 1}
+                                        </div>
+                                            
+                                        <img src={creator.userImage} alt={creator.fullName} className="top_creator--image" />
+                                        
+                                        <div className="top_creator--name text-white font-worksans">
+                                        {creator.fullName}
+                                        </div>
+                                </div>
+                                </div>
+                                <div className="col-2 col-md-3 d-none d-md-flex align-items-center col-lg-2">
+                                    <span className="top_creator--stats font-spacemono text-green fw-normal">{creator.changes}</span>
+                                </div>
+                                <div className="col-2 d-none d-lg-flex align-items-center font-spacemono">
+                                <span className="top_creator--stats font-spacemono text-white fw-normal">{creator.sold}</span>
+                                </div>
+                                <div className="ps-0 col-3 col-sm-4 col-md-3 col-lg-2 font-spacemono d-flex align-items-center">
+                                    <span className="top_creator--stats font-spacemono text-white fw-normal">{creator.sales} ETH</span>
+                                </div>
                             </div>
-                            <div className="col-2 col-md-3 d-none d-md-flex align-items-center col-lg-2">
-                                <span className="top_creator--stats font-spacemono text-green fw-normal">{creator.changes}</span>
+                        ))
+                    }
+
+                    {   toggleTabsState === 4 && 
+                            CreatorsData.slice(12, 17).map((creator, index) => (
+                            <div className="row rounded-20 text-capitalize fw-normal bg-black-secondary top_creator" key={creator.id}>
+                                <div className="col-9 col-sm-8 col-md-6 px-0">
+                                    <div className="d-flex align-items-center font-spacemono">
+                                        <div className="top_creator--number text-black-tertiary fw-normal d-md-flex align-items-center justify-content-center">
+                                            {index + 1}
+                                        </div>
+                                            
+                                        <img src={creator.userImage} alt={creator.fullName} className="top_creator--image" />
+                                        
+                                        <div className="top_creator--name text-white font-worksans">
+                                        {creator.fullName}
+                                        </div>
+                                </div>
+                                </div>
+                                <div className="col-2 col-md-3 d-none d-md-flex align-items-center col-lg-2">
+                                    <span className="top_creator--stats font-spacemono text-green fw-normal">{creator.changes}</span>
+                                </div>
+                                <div className="col-2 d-none d-lg-flex align-items-center font-spacemono">
+                                <span className="top_creator--stats font-spacemono text-white fw-normal">{creator.sold}</span>
+                                </div>
+                                <div className="ps-0 col-3 col-sm-4 col-md-3 col-lg-2 font-spacemono d-flex align-items-center">
+                                    <span className="top_creator--stats font-spacemono text-white fw-normal">{creator.sales} ETH</span>
+                                </div>
                             </div>
-                            <div className="col-2 d-none d-lg-flex align-items-center font-spacemono">
-                            <span className="top_creator--stats font-spacemono text-white fw-normal">{creator.sold}</span>
-                            </div>
-                            <div className="ps-0 col-3 col-sm-4 col-md-3 col-lg-2 font-spacemono d-flex align-items-center">
-                                <span className="top_creator--stats font-spacemono text-white fw-normal">{creator.sales} ETH</span>
-                            </div>
-                        </div>
-                    ))
-                }
-            </div>
+                        ))
+                    }
+                </div>
             </div>
         </div>
     )

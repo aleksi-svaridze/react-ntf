@@ -10,6 +10,7 @@ import Home from './pages/Home';
 import NftsPage from "./pages/NftsPage";
 
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import NotFound from "./pages/NotFound";
 
 
 function App() {
@@ -17,13 +18,14 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='marketplace' element={<Marketplace />} />
-            <Route path='rankings' element={<Ranking />} />
-            <Route path='wallet' element={<Wallet />} />
-            <Route path='signup' element={<SignUp />} />
-            <Route path='/:name' element={<TopCreator />} />
-            <Route path='nfts' element={<NftsPage />} />
+          <Route path='/' element={<Home />} />
+          <Route path='marketplace' element={<Marketplace />} />
+          <Route path='rankings/:name' element={<TopCreator />} />
+          <Route path='rankings' element={<Ranking />} />
+          <Route path='wallet' element={<Wallet />} />
+          <Route path='signup' element={<SignUp />} />
+          <Route path='nfts' element={<NftsPage />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </BrowserRouter>

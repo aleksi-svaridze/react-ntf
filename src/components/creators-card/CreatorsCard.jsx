@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom'
 
 export const CreatorsCardDesktop = ({id, name, image, sales}) => {
     return (
-        <Link to={name} style={{order: id}} className="text-decoration-none d-block rounded-20 bg-black-secondary creators-card custom-p-20 position-relative">
+        <Link to={`rankings/${name}`} style={{order: id}} className="text-decoration-none d-block rounded-20 bg-black-secondary creators-card custom-p-20 position-relative">
             <div className="creators-card__number position-absolute rounded-circle bg-black-primary d-flex align-items-center justify-content-center text-black-tertiary">{id}</div>
             <img src={image} className="creators-card__image rounded-circle" alt="" />
             <h5 className="creators-card__name">{name}</h5>
@@ -16,7 +16,7 @@ export const CreatorsCardDesktop = ({id, name, image, sales}) => {
 export const CreatorsCardMobile = ({id, name, image, sales}) => {
     return (
         <Link
-            to={name}
+            to={`rankings/${name}`}
             style={{order: id}}
             className="text-decoration-none rounded-20 bg-black-secondary custom-p-20 d-flex column-gap-20 align-items-center">
                 <div className="position-relative rounded-circle">
