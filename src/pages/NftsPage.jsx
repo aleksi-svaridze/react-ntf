@@ -1,5 +1,6 @@
 import { useWindowSize } from 'usehooks-ts'
 import classNames from 'classnames'
+
 import rightArrowIcon from '../media/images/icons/ArrowRight.svg'
 
 import desktopCover from '../media/images/nftsPage/desktopCover.jpg'
@@ -12,6 +13,7 @@ import NftsCard from '../components/nfts-card/NftsCard'
 import Button from '../components/buttons/Buttons'
 import User from '../components/users/User'
 import Tag from '../components/tag/Tag'
+import Details from '../components/details/Details'
 
 const NftsPage= () => {
     const {width} = useWindowSize();
@@ -65,6 +67,19 @@ const NftsPage= () => {
 
                             <div className='bg-danger'>
                                 <h3 className={`fourthiary-desc font-spacemono text-black-tertiary mb-2 ${width >= 768 ? 'fw-semibold' : 'fw-normal'}`}>Details</h3>
+                                <div className='d-flex flex-column'>
+                                    {
+                                        result.details.map(detail => (
+                                            <div key={detail.id} className='details-wrapper'>
+                                                <Details 
+                                                    icon={detail.icon} 
+                                                    content={detail.content} 
+                                                    url={detail.url}
+                                                />
+                                            </div>
+                                        ))
+                                    }
+                                </div>
                             </div>
 
                             <div className='bg-danger'>
@@ -79,6 +94,7 @@ const NftsPage= () => {
                             </div>
 
                         </div>
+
                         <div className="col-12 col-md-6 col-lg-4">
                             <div className='d-md-flex justify-content-end align-items-start d-none'>
                                 <Timer 

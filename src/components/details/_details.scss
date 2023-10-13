@@ -1,0 +1,37 @@
+.details {
+    column-gap: 10px;
+    
+    &--icon {
+        width: 24px;
+        height: 24px;
+    }
+    &--content {
+        font-size: 16px;
+        font-style: normal;
+        line-height: 140%; /* 22.4px */
+    }
+
+    &-wrapper {
+        margin-bottom: 0;
+
+        &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+
+    @media screen and (min-width: 991px) {
+        &--icon {
+            width: 32px;
+            height: 32px;
+        }
+        &--content {
+            font-size: 22px;
+            line-height: 160%; /* 35.2px */
+        }
+        &-wrapper {    
+            &:not(:last-child) {
+                margin-bottom: 13px;
+            }
+        }
+    }
+}
