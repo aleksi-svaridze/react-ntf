@@ -252,6 +252,7 @@
             {"id": 2, "desc": "NFTs Sold", "num": "50+"}, 
             {"id": 3, "desc": "Followers", "num": "3000k+"}
         ], 
+        "tags": ["animation", "moon", "illustration","fantasy"],
         "bio": "The internet's friendliest designer kid.", 
         "socials": [
             {"id": 1, "link": "/web/Shroomie", "icon": "/images/soc-icons/GlobeLogo.svg"},
