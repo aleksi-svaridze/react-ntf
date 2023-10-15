@@ -50,3 +50,7 @@
 ::selection {
     background-color: transparent; 
 }
+
+.navbar-nav .nav-item .nav-link.active {
+    color: $color-purple !important;
+}
