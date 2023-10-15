@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useWindowSize } from "usehooks-ts";
 import { TableHeader } from "../components/tables/Tables";
 import { Link } from "react-router-dom";
+import scrollToTop from "../functions/scrollToTop";
 
 import CreatorsData from '../data/creators/creators.json';
 
@@ -66,7 +67,12 @@ const Ranking = () => {
                 <div className="layout-container py-0">
                     {   toggleTabsState === 1 &&
                         CreatorsData.map(creator => (
-                            <Link to={`${creator.name}`} className="text-decoration-none row rounded-20 text-capitalize fw-normal bg-black-secondary top_creator" key={creator.id}>
+                            <Link 
+                                to={`${creator.name}`} 
+                                className="text-decoration-none row rounded-20 text-capitalize fw-normal bg-black-secondary top_creator" 
+                                key={creator.id}
+                                onClick={scrollToTop}
+                            >
                                 
                                 <div className="col-9 col-sm-8 col-md-6 px-0">
                                     <div className="d-flex align-items-center font-spacemono">
@@ -93,14 +99,18 @@ const Ranking = () => {
                                 <div className="ps-0 col-3 col-sm-4 col-md-3 col-lg-2 font-spacemono d-flex align-items-center">
                                     <span className="top_creator--stats font-spacemono text-white fw-normal">{creator.sales} ETH</span>
                                 </div>
-                                
                             </Link>
                         ))
                     }
 
                     {   toggleTabsState === 2 && 
                             CreatorsData.slice(4, 9).map((creator, index) => (
-                                <Link to={`${creator.name}`} className="text-decoration-none row rounded-20 text-capitalize fw-normal bg-black-secondary top_creator" key={creator.id}>
+                                <Link 
+                                    to={`${creator.name}`} 
+                                    className="text-decoration-none row rounded-20 text-capitalize fw-normal bg-black-secondary top_creator" 
+                                    key={creator.id}
+                                    onClick={scrollToTop}
+                                >
                                 <div className="col-9 col-sm-8 col-md-6 px-0">
                                     <div className="d-flex align-items-center font-spacemono">
                                         <div className="top_creator--number text-black-tertiary fw-normal d-md-flex align-items-center justify-content-center">
@@ -129,7 +139,12 @@ const Ranking = () => {
 
                     {   toggleTabsState === 3 && 
                             CreatorsData.slice(6, 10).map((creator, index) => (
-                                <Link to={`${creator.name}`} className="text-decoration-none row rounded-20 text-capitalize fw-normal bg-black-secondary top_creator" key={creator.id}>
+                                <Link 
+                                    to={`${creator.name}`} 
+                                    className="text-decoration-none row rounded-20 text-capitalize fw-normal bg-black-secondary top_creator" 
+                                    key={creator.id}
+                                    onClick={scrollToTop}
+                                >
                                 <div className="col-9 col-sm-8 col-md-6 px-0">
                                     <div className="d-flex align-items-center font-spacemono">
                                         <div className="top_creator--number text-black-tertiary fw-normal d-md-flex align-items-center justify-content-center">
@@ -158,7 +173,12 @@ const Ranking = () => {
 
                     {   toggleTabsState === 4 && 
                             CreatorsData.slice(12, 17).map((creator, index) => (
-                                <Link to={`${creator.name}`} className="text-decoration-none row rounded-20 text-capitalize fw-normal bg-black-secondary top_creator" key={creator.id}>
+                                <Link 
+                                    to={`${creator.name}`} 
+                                    className="text-decoration-none row rounded-20 text-capitalize fw-normal bg-black-secondary top_creator" 
+                                    key={creator.id}
+                                    onClick={scrollToTop}
+                                >
                                 <div className="col-9 col-sm-8 col-md-6 px-0">
                                     <div className="d-flex align-items-center font-spacemono">
                                         <div className="top_creator--number text-black-tertiary fw-normal d-md-flex align-items-center justify-content-center">

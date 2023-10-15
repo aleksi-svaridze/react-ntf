@@ -64,7 +64,7 @@ const Marketplace = () => {
                     <div className="layout-container py-lg-3">
                         <div className="row g-4">
                             { tabIndex === 1 ? creator.card.map(item => (
-                                <div className="col-12 col-md-6 col-lg-4">
+                                <div className="col-12 col-md-6 col-lg-4" key={item.id}>
                                     <NftsCard 
                                         id={item.id} 
                                         price={item.cardPrice} 
@@ -78,7 +78,7 @@ const Marketplace = () => {
                                 </div>
                             ))
                              :  creator.card.slice(5,9).map(item => (
-                                <div className="col-12 col-md-6 col-lg-4">
+                                <div className="col-12 col-md-6 col-lg-4" key={item.id}>
                                     <NftsCard 
                                         id={item.id} 
                                         price={item.cardPrice} 

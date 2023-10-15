@@ -24,7 +24,7 @@ const Auction = () => {
                         <div className="col-12 col-lg-7">
                             <div>
                                 <h2 className="auction-container--title text-white text-capitalize fw-semibold mb-4 pb-2 pe-5 pe-sm-0">Magic Mashrooms</h2>
-                                <Button 
+                                <Button
                                     path='nfts' 
                                     icon={buttonIcon} 
                                     content='see NFTS' 
