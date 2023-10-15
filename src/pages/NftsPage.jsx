@@ -34,7 +34,7 @@ const NftsPage= () => {
 
             
             <div className="layout-container py-4">
-                <div className="container py-3">
+                <div className="container pt-3 pb-4">
                     <div className="row">
                         <div className="col-12 col-md-6 col-lg-8">
                             <SecondaryHeading customStyles='fourthiary-heading' content='The Orbitians' />
@@ -47,8 +47,8 @@ const NftsPage= () => {
                                 btnStyle={'btn_custom btn_custom--purple btn_custom--purple-width mx-auto d-flex font-worksans mt-4 text-capitalize'} />
                             </div>
 
-                            <div className='bg-danger'>
-                                <h3 className={`fourthiary-desc font-spacemono text-black-tertiary mb-2 ${width >= 768 ? 'fw-semibold' : 'fw-normal'}`}>Created By</h3>
+                            <div className=''>
+                                <h3 className={`fourthiary-desc font-spacemono text-black-tertiary mt-3 mt-lg-4 mb-2 ${width >= 768 ? 'fw-semibold' : 'fw-normal'}`}>Created By</h3>
                                 <User 
                                     userContainer=''
                                     imageSrc={result.userImage} 
@@ -57,16 +57,16 @@ const NftsPage= () => {
                                 />
                             </div>
 
-                            <div className='bg-danger'>
-                                <h3 className={`fourthiary-desc font-spacemono text-black-tertiary mb-2 ${width >= 768 ? 'fw-semibold' : 'fw-normal'}`}>Description</h3>
+                            <div className=''>
+                                <h3 className={`fourthiary-desc font-spacemono text-black-tertiary mb-2 mt-3 mt-lg-4 ${width >= 768 ? 'fw-semibold' : 'fw-normal'}`}>Description</h3>
                                 <p className='fourthiary-desc mb-0'>The Orbitians</p>
                                 <p className='fourthiary-desc'>is a collection of 10,000 unique NFTs on the Ethereum blockchain,</p>
                                 <p className='fourthiary-desc'>There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians.</p>
                                 <p className='fourthiary-desc'>They live in a metal space machines, high up in the sky and only have one foot on Earth. These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target.</p>
                             </div>
 
-                            <div className='bg-danger'>
-                                <h3 className={`fourthiary-desc font-spacemono text-black-tertiary mb-2 ${width >= 768 ? 'fw-semibold' : 'fw-normal'}`}>Details</h3>
+                            <div className=''>
+                                <h3 className={`fourthiary-desc font-spacemono text-black-tertiary mb-2 mt-3 mt-lg-4 ${width >= 768 ? 'fw-semibold' : 'fw-normal'}`}>Details</h3>
                                 <div className='d-flex flex-column'>
                                     {
                                         result.details.map(detail => (
@@ -82,8 +82,8 @@ const NftsPage= () => {
                                 </div>
                             </div>
 
-                            <div className='bg-danger'>
-                                <h3 className={`fourthiary-desc font-spacemono text-black-tertiary mb-2 ${width >= 768 ? 'fw-semibold' : 'fw-normal'}`}>Tags</h3>
+                            <div className=''>
+                                <h3 className={`fourthiary-desc font-spacemono text-black-tertiary mt-3 mt-lg-4 mb-3 ${width >= 768 ? 'fw-semibold' : 'fw-normal'}`}>Tags</h3>
                                 <div className='d-flex flex-column flex-lg-row align-items-lg-center align-items-start gap-3'>
                                     {
                                         result.tags.map((tag, index) => (
@@ -108,7 +108,7 @@ const NftsPage= () => {
                     </div>
                 </div>
 
-                <div className="container py-4 py-lg-5">
+                <div className="container py-5">
 
                     <div className="row pt-3 pt-lg-4">
                         <div className="col-12">
@@ -153,7 +153,7 @@ const NftsPage= () => {
                         }
                     </div>
 
-                    <div className="row">
+                    <div className="row pt-3">
                         <div className="col-12">
                             <Button
                                 path='' 
